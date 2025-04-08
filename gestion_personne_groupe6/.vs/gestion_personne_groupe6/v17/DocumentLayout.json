@@ -3,9 +3,6 @@
   "WorkspaceRootPath": "C:\\examen-groupe6\\gestion_personne_groupe6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{41633DA4-D940-488C-AC3C-19F1D41F0391}|..\\..\\Users\\PROACTIF\\Documents\\GestionUtiliteeLib\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj|c:\\users\\proactif\\documents\\gestionutiliteelib\\gestionutiliteelib\\parametres.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6E6BA29-ED88-4844-BA62-B454161B36A1}|..\\..\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj|c:\\users\\proactif\\documents\\gestiondelaconnexion\\gestiondelaconnexion\\implementerconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -31,32 +28,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Parametres.cs",
-              "DocumentMoniker": "C:\\Users\\PROACTIF\\Documents\\GestionUtiliteeLib\\GestionUtiliteeLib\\Parametres.cs",
-              "RelativeDocumentMoniker": "..\\..\\Users\\PROACTIF\\Documents\\GestionUtiliteeLib\\GestionUtiliteeLib\\Parametres.cs",
-              "ToolTip": "C:\\Users\\PROACTIF\\Documents\\GestionUtiliteeLib\\GestionUtiliteeLib\\Parametres.cs",
-              "RelativeToolTip": "..\\..\\Users\\PROACTIF\\Documents\\GestionUtiliteeLib\\GestionUtiliteeLib\\Parametres.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T10:46:46.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ImplementerConnexion.cs",
               "DocumentMoniker": "C:\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\ImplementerConnexion.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\ImplementerConnexion.cs",
               "ToolTip": "C:\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\ImplementerConnexion.cs",
               "RelativeToolTip": "..\\..\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\ImplementerConnexion.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-08T10:05:26.886Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Iconnexion.cs",
               "DocumentMoniker": "C:\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\Iconnexion.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\Iconnexion.cs",
@@ -68,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "connexion.cs",
               "DocumentMoniker": "C:\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\connexion.cs",
               "RelativeDocumentMoniker": "..\\..\\Users\\PROACTIF\\Documents\\GestionDeLaConnexion\\GestionDeLaConnexion\\connexion.cs",
@@ -80,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\examen-groupe6\\gestion_personne_groupe6\\gestion_personne_groupe6\\Form1.cs",
               "RelativeDocumentMoniker": "gestion_personne_groupe6\\Form1.cs",
