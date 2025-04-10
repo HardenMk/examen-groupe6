@@ -1,0 +1,9 @@
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\bin\Debug\Gestion_personne_groupe6.exe.config
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\bin\Debug\Gestion_personne_groupe6.exe
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\bin\Debug\Gestion_personne_groupe6.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.Properties.Resources.resources
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.csproj.GenerateResource.cache
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.exe
+E:\examen-groupe6\Gestion_personne_groupe6\Gestion_personne_groupe6\obj\Debug\Gestion_personne_groupe6.pdb

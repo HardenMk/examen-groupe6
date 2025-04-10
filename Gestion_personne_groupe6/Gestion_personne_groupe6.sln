@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gestion_personne_groupe6", "Gestion_personne_groupe6\Gestion_personne_groupe6.csproj", "{99EBD899-B06A-4556-8E8A-DA15AB4D76D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionGUI", "C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\GestionGUI.csproj", "{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestionGUI", "GestionGUI\GestionGUI.csproj", "{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

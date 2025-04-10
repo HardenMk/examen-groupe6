@@ -1,0 +1,46 @@
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionGUI.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionGUI.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionGUI.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Guna.UI2.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.csproj.AssemblyReference.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.Chargement.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Connexion.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_ConnexionBd.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Principal.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.Properties.Resources.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.csproj.GenerateResource.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.csproj.CoreCompileInputs.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.csproj.Up2Date
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.UserPersonne.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.UserTelephone.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.UserDomicile.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterPersonne.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterTelephone.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterDomicile.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Adresse.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Personne.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Guna.UI2.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Chargement.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Adresse.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterDomicile.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterPersonne.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterTelephone.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Connexion.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_ConnexionBd.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Personne.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Principal.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Properties.Resources.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserDomicile.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserPersonne.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserTelephone.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.GenerateResource.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.Up2Date
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.exe
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.pdb

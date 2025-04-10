@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestionGUI</RootNamespace>
+    <AssemblyName>GestionGUI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Chargement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chargement.Designer.cs">
+      <DependentUpon>Chargement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Adresse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Adresse.Designer.cs">
+      <DependentUpon>FRM_Adresse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_AjouterDomicile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_AjouterDomicile.Designer.cs">
+      <DependentUpon>FRM_AjouterDomicile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_AjouterPersonne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_AjouterPersonne.Designer.cs">
+      <DependentUpon>FRM_AjouterPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_AjouterTelephone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_AjouterTelephone.Designer.cs">
+      <DependentUpon>FRM_AjouterTelephone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Connexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Connexion.Designer.cs">
+      <DependentUpon>FRM_Connexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_ConnexionBd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_ConnexionBd.Designer.cs">
+      <DependentUpon>FRM_ConnexionBd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Personne.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Personne.Designer.cs">
+      <DependentUpon>FRM_Personne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FRM_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Principal.Designer.cs">
+      <DependentUpon>FRM_Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UserDomicile.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserDomicile.Designer.cs">
+      <DependentUpon>UserDomicile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserPersonne.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserPersonne.Designer.cs">
+      <DependentUpon>UserPersonne.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserTelephone.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserTelephone.Designer.cs">
+      <DependentUpon>UserTelephone.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Chargement.resx">
+      <DependentUpon>Chargement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Adresse.resx">
+      <DependentUpon>FRM_Adresse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_AjouterDomicile.resx">
+      <DependentUpon>FRM_AjouterDomicile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_AjouterPersonne.resx">
+      <DependentUpon>FRM_AjouterPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_AjouterTelephone.resx">
+      <DependentUpon>FRM_AjouterTelephone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Connexion.resx">
+      <DependentUpon>FRM_Connexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_ConnexionBd.resx">
+      <DependentUpon>FRM_ConnexionBd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Personne.resx">
+      <DependentUpon>FRM_Personne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Principal.resx">
+      <DependentUpon>FRM_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="UserDomicile.resx">
+      <DependentUpon>UserDomicile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserPersonne.resx">
+      <DependentUpon>UserPersonne.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserTelephone.resx">
+      <DependentUpon>UserTelephone.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
