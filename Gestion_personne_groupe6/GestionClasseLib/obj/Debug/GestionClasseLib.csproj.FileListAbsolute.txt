@@ -1,0 +1,16 @@
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.AssemblyReference.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.Properties.Resources.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.GenerateResource.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.CoreCompileInputs.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionClasseLib.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionClasseLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionClasseLib.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionDeLaConnexion.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionUtiliteeLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionDeLaConnexion.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionDeLaConnexion.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionUtiliteeLib.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\GestionUtiliteeLib.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionC.A440506D.Up2Date
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.pdb

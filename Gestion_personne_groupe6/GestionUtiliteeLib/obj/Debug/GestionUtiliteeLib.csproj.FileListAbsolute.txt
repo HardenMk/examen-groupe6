@@ -1,0 +1,9 @@
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.AssemblyReference.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.Properties.Resources.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.GenerateResource.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.CoreCompileInputs.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.pdb
