@@ -20,7 +20,7 @@ namespace GestionClasseLib
         private int _id_personne;
         private int _id_adresse;
         private string _avenue;
-        private int _numero_avenue;
+        private int _numero_domicile;
 
         public int Id
         {
@@ -76,17 +76,17 @@ namespace GestionClasseLib
             }
         }
 
-        public int numero_avenue
+        public int numero_domicile
         {
             get
             {
-                return _numero_avenue;
+                return _numero_domicile;
             }
 
             set
             {
 
-                _numero_avenue = value;
+                _numero_domicile = value;
             }
         }
 
@@ -129,7 +129,7 @@ namespace GestionClasseLib
                 cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@id_personne", 4, DbType.Int32, _id_personne));
                 cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@id_adresse", 4, DbType.Int32, _id_adresse));
                 cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@avenue", 50, DbType.String, _avenue));
-                cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@numero_avenue", 4, DbType.Int32, _numero_avenue));
+                cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@numero_avenue", 4, DbType.Int32, _numero_domicile));
 
                 cmd.ExecuteNonQuery();
             }
@@ -160,7 +160,7 @@ namespace GestionClasseLib
             domicile.Id = int.Parse(rd["id"].ToString());
             domicile.id_personne = Convert.ToInt32(rd["id_personne"].ToString());
             domicile.id_adresse = Convert.ToInt32(rd["id_adresse"].ToString());
-            domicile.numero_avenue = Convert.ToInt32(rd["numero_avenue"].ToString());
+            domicile.numero_domicile = Convert.ToInt32(rd["numero_avenue"].ToString());
             domicile.avenue = rd["avenue"].ToString();
 
             return domicile;
@@ -190,6 +190,28 @@ namespace GestionClasseLib
             return lst;
         }
 
+        public List<IDomicile> RechercherDomicile(String txtrech)
+        {
+            List<IDomicile> lst = new List<IDomicile>();
+            string req = "select d.id,d.id_adresse,d.id_personne,d.avenue,d.numero_avenue from domicile d inner join personne p on d.id_personne=p.id where nom like '%" + txtrech + "%' or postnom like '%" + txtrech + "%' or prenom like '%" + txtrech + "%' order by id asc";
 
+            ImplementerConnexion.connectioncreer();
+            using (SqlCommand cmd = ImplementerConnexion.con.CreateCommand())
+            {
+                cmd.CommandText = req;
+                cmd.CommandType = CommandType.Text;
+                IDataReader rd = cmd.ExecuteReader();
+
+                while (rd.Read())
+                {
+                    lst.Add(GetDomicile(rd));
+                }
+
+                rd.Dispose();
+            }
+
+            return lst;
+        }
     }
 }
+

@@ -7,3 +7,12 @@ C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\Gesti
 C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.CoreCompileInputs.cache
 C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.exe
 C:\Users\Bethel\Downloads\Application cabinet\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.Properties.Resources.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.GenerateResource.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\bin\Debug\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionUtiliteeLib\obj\Debug\GestionUtiliteeLib.dll

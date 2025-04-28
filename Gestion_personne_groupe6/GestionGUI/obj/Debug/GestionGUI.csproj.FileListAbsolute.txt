@@ -21,11 +21,186 @@ C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FR
 C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterDomicile.resources
 C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Adresse.resources
 C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Personne.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionClasseLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionDeLaConnexion.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionUtiliteeLib.exe
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionClasseLib.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionClasseLib.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionDeLaConnexion.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionDeLaConnexion.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionUtiliteeLib.pdb
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\GestionUtiliteeLib.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\EnvDTE.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\stdole.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\EnvDTE80.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj80.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.MSXML.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.Build.Framework.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.Interop.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj2.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\EnvDTE.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\EnvDTE80.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj80.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\VSLangProj2.xml
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\bin\Debug\fr\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.exe.config
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Imprimer.resources
+C:\Users\Bethel\Downloads\Application cabinet\GestionGUI\obj\Debug\GestionGUI.FRM_Utilisateur.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe.config
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.pdb
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Guna.UI2.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\EnvDTE.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\stdole.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\EnvDTE80.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.Build.Tasks.Core.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj80.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.MSXML.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.Build.Utilities.Core.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.Build.Framework.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.Interop.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj2.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.Imaging.Interop.14.0.DesignTime.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionClasseLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionUtiliteeLib.exe.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\EnvDTE.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\EnvDTE80.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj80.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\VSLangProj2.xml
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.VisualStudio.Data.Services.resources.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\fr\Microsoft.VisualStudio.Data.Core.resources.dll
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.SuggestedBindingRedirects.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.exe.config
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Chargement.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Adresse.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterDomicile.resources
@@ -33,8 +208,10 @@ E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_A
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterTelephone.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Connexion.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_ConnexionBd.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Imprimer.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Personne.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Principal.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Utilisateur.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Properties.Resources.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserDomicile.resources
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserPersonne.resources
@@ -44,26 +221,9 @@ E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.cspro
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.Up2Date
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.exe
 E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.pdb
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe.config
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.exe
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionGUI.pdb
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\Guna.UI2.dll
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.AssemblyReference.cache
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Chargement.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Adresse.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterDomicile.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterPersonne.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_AjouterTelephone.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Connexion.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_ConnexionBd.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Personne.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.FRM_Principal.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.Properties.Resources.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserDomicile.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserPersonne.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.UserTelephone.resources
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.GenerateResource.cache
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.CoreCompileInputs.cache
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.csproj.Up2Date
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.exe
-D:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\obj\Debug\GestionGUI.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionDeLaConnexion.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionUtiliteeLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionDeLaConnexion.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionUtiliteeLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionClasseLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionGUI\bin\Debug\GestionClasseLib.dll.config

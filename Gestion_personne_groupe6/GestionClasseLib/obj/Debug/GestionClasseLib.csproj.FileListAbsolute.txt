@@ -14,3 +14,20 @@ C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\bin\Debug\Gestion
 C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionC.A440506D.Up2Date
 C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.exe
 C:\Users\Bethel\Downloads\Application cabinet\GestionClasseLib\obj\Debug\GestionClasseLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionClasseLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionUtiliteeLib.exe.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.Properties.Resources.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.GenerateResource.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionC.A440506D.Up2Date
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionDeLaConnexion.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionUtiliteeLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionDeLaConnexion.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionUtiliteeLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionClasseLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\bin\Debug\GestionClasseLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionClasseLib\obj\Debug\GestionClasseLib.dll

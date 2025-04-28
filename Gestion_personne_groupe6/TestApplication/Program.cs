@@ -12,7 +12,7 @@ namespace TestApplication
             {
                 connexion connection = new connexion();
 
-                connection.Serveur = @"INGENIEUR";
+                connection.Serveur = @"DESKTOP-8JV1G3E\SQLEXPRESS";
                 connection.Database = "gestion_personne";
                 connection.User = "sa";
                 connection.Password = "mk101214";

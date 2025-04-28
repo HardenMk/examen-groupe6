@@ -20,5 +20,6 @@ namespace GestionClasseLib
         void Supprimer(int id);
         List<IPersonne> Personnes();
         IPersonne OnePersonne(int id);
+        List<IPersonne> RechercherPersonne(String txtrech);
     }
 }

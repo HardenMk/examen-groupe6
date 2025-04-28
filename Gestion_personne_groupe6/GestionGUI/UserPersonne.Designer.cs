@@ -36,23 +36,22 @@
             this.actualiserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.enregistrerToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
-            this.imprimerToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.couperToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.copierToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.imprimerToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toollabelnumero = new System.Windows.Forms.ToolStripLabel();
             this.toolStripLabel2 = new System.Windows.Forms.ToolStripLabel();
             this.toollabelnbrgridvieuw = new System.Windows.Forms.ToolStripLabel();
-            this.dvgclient = new System.Windows.Forms.DataGridView();
-            this.id_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.noms_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adresse_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telephone_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categorie = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.description_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dgvPersonne = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.postnom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomComplet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.modifierPersonnelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.supprimerPersonnelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -60,19 +59,24 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pnlrecette = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtrech = new Guna.UI2.WinForms.Guna2TextBox();
             this.btnsupp = new System.Windows.Forms.Button();
-            this.txtrech = new System.Windows.Forms.TextBox();
             this.btnmod = new System.Windows.Forms.Button();
             this.btnajout = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.gestion_personneDataSet = new GestionGUI.gestion_personneDataSet();
+            this.spselectpersonnesBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.sp_select_personnesTableAdapter = new GestionGUI.gestion_personneDataSetTableAdapters.sp_select_personnesTableAdapter();
             this.toolStrip2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvgclient)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersonne)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.pnlrecette.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gestion_personneDataSet)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spselectpersonnesBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // actualiserToolStripMenuItem
@@ -89,17 +93,18 @@
             this.enregistrerToolStripButton.Name = "enregistrerToolStripButton";
             this.enregistrerToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.enregistrerToolStripButton.Text = "&Enregistrer";
+            this.enregistrerToolStripButton.Click += new System.EventHandler(this.enregistrerToolStripButton_Click);
             // 
             // toolStrip2
             // 
-            this.toolStrip2.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip2.BackColor = System.Drawing.Color.White;
             this.toolStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.enregistrerToolStripButton,
-            this.imprimerToolStripButton,
             this.toolStripSeparator,
             this.couperToolStripButton,
             this.copierToolStripButton,
+            this.imprimerToolStripButton,
             this.toolStripSeparator2,
             this.toolStripSeparator3,
             this.toollabelnumero,
@@ -107,18 +112,9 @@
             this.toollabelnbrgridvieuw});
             this.toolStrip2.Location = new System.Drawing.Point(3, 3);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(169, 25);
+            this.toolStrip2.Size = new System.Drawing.Size(202, 25);
             this.toolStrip2.TabIndex = 19;
             this.toolStrip2.Text = "toolStrip2";
-            // 
-            // imprimerToolStripButton
-            // 
-            this.imprimerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("imprimerToolStripButton.Image")));
-            this.imprimerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.imprimerToolStripButton.Name = "imprimerToolStripButton";
-            this.imprimerToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.imprimerToolStripButton.Text = "&Imprimer";
             // 
             // toolStripSeparator
             // 
@@ -133,6 +129,7 @@
             this.couperToolStripButton.Name = "couperToolStripButton";
             this.couperToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.couperToolStripButton.Text = "C&ouper";
+            this.couperToolStripButton.Click += new System.EventHandler(this.couperToolStripButton_Click);
             // 
             // copierToolStripButton
             // 
@@ -141,7 +138,18 @@
             this.copierToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.copierToolStripButton.Name = "copierToolStripButton";
             this.copierToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.copierToolStripButton.Text = "Co&pier";
+            this.copierToolStripButton.Text = "Modifier";
+            this.copierToolStripButton.Click += new System.EventHandler(this.copierToolStripButton_Click);
+            // 
+            // imprimerToolStripButton
+            // 
+            this.imprimerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("imprimerToolStripButton.Image")));
+            this.imprimerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.imprimerToolStripButton.Name = "imprimerToolStripButton";
+            this.imprimerToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.imprimerToolStripButton.Text = "&Imprimer";
+            this.imprimerToolStripButton.Click += new System.EventHandler(this.imprimerToolStripButton_Click);
             // 
             // toolStripSeparator2
             // 
@@ -162,8 +170,8 @@
             // toolStripLabel2
             // 
             this.toolStripLabel2.Name = "toolStripLabel2";
-            this.toolStripLabel2.Size = new System.Drawing.Size(21, 22);
-            this.toolStripLabel2.Text = "on";
+            this.toolStripLabel2.Size = new System.Drawing.Size(23, 22);
+            this.toolStripLabel2.Text = "sur";
             // 
             // toollabelnbrgridvieuw
             // 
@@ -171,34 +179,33 @@
             this.toollabelnbrgridvieuw.Size = new System.Drawing.Size(13, 22);
             this.toollabelnbrgridvieuw.Text = "1";
             // 
-            // dvgclient
+            // dgvPersonne
             // 
-            this.dvgclient.AllowUserToAddRows = false;
-            this.dvgclient.AllowUserToDeleteRows = false;
-            this.dvgclient.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dgvPersonne.AllowUserToAddRows = false;
+            this.dgvPersonne.AllowUserToDeleteRows = false;
+            this.dgvPersonne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dvgclient.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dvgclient.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dvgclient.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dgvPersonne.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPersonne.BackgroundColor = System.Drawing.Color.White;
+            this.dgvPersonne.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Teal;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dvgclient.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dvgclient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgclient.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id_client,
-            this.noms_client,
-            this.adresse_client,
-            this.telephone_client,
-            this.categorie,
-            this.email,
-            this.description_client});
-            this.dvgclient.ContextMenuStrip = this.guna2ContextMenuStrip1;
+            this.dgvPersonne.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvPersonne.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPersonne.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
+            this.nom,
+            this.postnom,
+            this.prenom,
+            this.sex,
+            this.nomComplet});
+            this.dgvPersonne.ContextMenuStrip = this.guna2ContextMenuStrip1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -206,69 +213,63 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dvgclient.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dvgclient.EnableHeadersVisualStyles = false;
-            this.dvgclient.Location = new System.Drawing.Point(0, 119);
-            this.dvgclient.Name = "dvgclient";
-            this.dvgclient.ReadOnly = true;
-            this.dvgclient.RowHeadersVisible = false;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dvgclient.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dvgclient.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dvgclient.Size = new System.Drawing.Size(1044, 375);
-            this.dvgclient.TabIndex = 36;
+            this.dgvPersonne.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvPersonne.EnableHeadersVisualStyles = false;
+            this.dgvPersonne.Location = new System.Drawing.Point(0, 119);
+            this.dgvPersonne.Name = "dgvPersonne";
+            this.dgvPersonne.ReadOnly = true;
+            this.dgvPersonne.RowHeadersVisible = false;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvPersonne.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvPersonne.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvPersonne.Size = new System.Drawing.Size(1044, 375);
+            this.dgvPersonne.TabIndex = 36;
+            this.dgvPersonne.Click += new System.EventHandler(this.dgvPersonne_Click);
+            this.dgvPersonne.DoubleClick += new System.EventHandler(this.dgvPersonne_DoubleClick);
             // 
-            // id_client
+            // Id
             // 
-            this.id_client.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.id_client.DataPropertyName = "id_client";
-            this.id_client.HeaderText = "Id";
-            this.id_client.Name = "id_client";
-            this.id_client.ReadOnly = true;
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "#";
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
             // 
-            // noms_client
+            // nom
             // 
-            this.noms_client.DataPropertyName = "noms_client";
-            this.noms_client.HeaderText = "Noms";
-            this.noms_client.Name = "noms_client";
-            this.noms_client.ReadOnly = true;
+            this.nom.DataPropertyName = "Nom";
+            this.nom.HeaderText = "Nom";
+            this.nom.Name = "nom";
+            this.nom.ReadOnly = true;
             // 
-            // adresse_client
+            // postnom
             // 
-            this.adresse_client.DataPropertyName = "adresse_client";
-            this.adresse_client.HeaderText = "Adresse";
-            this.adresse_client.Name = "adresse_client";
-            this.adresse_client.ReadOnly = true;
+            this.postnom.DataPropertyName = "Postnom";
+            this.postnom.HeaderText = "Postnom";
+            this.postnom.Name = "postnom";
+            this.postnom.ReadOnly = true;
             // 
-            // telephone_client
+            // prenom
             // 
-            this.telephone_client.DataPropertyName = "telephone_client";
-            this.telephone_client.HeaderText = "Telephone";
-            this.telephone_client.Name = "telephone_client";
-            this.telephone_client.ReadOnly = true;
+            this.prenom.DataPropertyName = "Prenom";
+            this.prenom.HeaderText = "Prenom";
+            this.prenom.Name = "prenom";
+            this.prenom.ReadOnly = true;
             // 
-            // categorie
+            // sex
             // 
-            this.categorie.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.categorie.DataPropertyName = "categorie";
-            this.categorie.HeaderText = "Categorie";
-            this.categorie.Name = "categorie";
-            this.categorie.ReadOnly = true;
+            this.sex.DataPropertyName = "Sex";
+            this.sex.HeaderText = "Genre";
+            this.sex.Name = "sex";
+            this.sex.ReadOnly = true;
             // 
-            // email
+            // nomComplet
             // 
-            this.email.DataPropertyName = "email";
-            this.email.HeaderText = "Email";
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            // 
-            // description_client
-            // 
-            this.description_client.DataPropertyName = "description_client";
-            this.description_client.HeaderText = "Description";
-            this.description_client.Name = "description_client";
-            this.description_client.ReadOnly = true;
+            this.nomComplet.DataPropertyName = "NomComplet";
+            this.nomComplet.HeaderText = "Noms";
+            this.nomComplet.Name = "nomComplet";
+            this.nomComplet.ReadOnly = true;
+            this.nomComplet.Visible = false;
             // 
             // guna2ContextMenuStrip1
             // 
@@ -313,7 +314,7 @@
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.toolStrip2);
             this.panel1.Location = new System.Drawing.Point(1, 82);
@@ -325,7 +326,7 @@
             // 
             this.pnlrecette.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlrecette.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlrecette.BackColor = System.Drawing.Color.White;
             this.pnlrecette.Controls.Add(this.groupBox1);
             this.pnlrecette.Location = new System.Drawing.Point(0, 0);
             this.pnlrecette.Name = "pnlrecette";
@@ -337,8 +338,8 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.btnsupp);
             this.groupBox1.Controls.Add(this.txtrech);
+            this.groupBox1.Controls.Add(this.btnsupp);
             this.groupBox1.Controls.Add(this.btnmod);
             this.groupBox1.Controls.Add(this.btnajout);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -349,6 +350,27 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // txtrech
+            // 
+            this.txtrech.BorderThickness = 2;
+            this.txtrech.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtrech.DefaultText = "";
+            this.txtrech.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtrech.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtrech.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtrech.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtrech.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtrech.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtrech.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtrech.Location = new System.Drawing.Point(627, 15);
+            this.txtrech.Name = "txtrech";
+            this.txtrech.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtrech.PlaceholderText = "Recherche";
+            this.txtrech.SelectedText = "";
+            this.txtrech.Size = new System.Drawing.Size(262, 29);
+            this.txtrech.TabIndex = 63;
+            this.txtrech.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
             // 
             // btnsupp
             // 
@@ -368,16 +390,7 @@
             this.btnsupp.Text = "Supprimer personne";
             this.btnsupp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsupp.UseVisualStyleBackColor = false;
-            // 
-            // txtrech
-            // 
-            this.txtrech.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrech.Location = new System.Drawing.Point(570, 18);
-            this.txtrech.Multiline = true;
-            this.txtrech.Name = "txtrech";
-            this.txtrech.Size = new System.Drawing.Size(274, 30);
-            this.txtrech.TabIndex = 60;
-            this.txtrech.Text = "Recherche";
+            this.btnsupp.Click += new System.EventHandler(this.btnsupp_Click);
             // 
             // btnmod
             // 
@@ -397,6 +410,7 @@
             this.btnmod.Text = "Modifier personne";
             this.btnmod.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnmod.UseVisualStyleBackColor = false;
+            this.btnmod.Click += new System.EventHandler(this.btnmod_Click);
             // 
             // btnajout
             // 
@@ -418,24 +432,41 @@
             this.btnajout.UseVisualStyleBackColor = false;
             this.btnajout.Click += new System.EventHandler(this.btnajout_Click);
             // 
+            // gestion_personneDataSet
+            // 
+            this.gestion_personneDataSet.DataSetName = "gestion_personneDataSet";
+            this.gestion_personneDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // spselectpersonnesBindingSource
+            // 
+            this.spselectpersonnesBindingSource.DataMember = "sp_select_personnes";
+            this.spselectpersonnesBindingSource.DataSource = this.gestion_personneDataSet;
+            // 
+            // sp_select_personnesTableAdapter
+            // 
+            this.sp_select_personnesTableAdapter.ClearBeforeFill = true;
+            // 
             // UserPersonne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dvgclient);
+            this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.dgvPersonne);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlrecette);
             this.Name = "UserPersonne";
             this.Size = new System.Drawing.Size(1044, 495);
+            this.Load += new System.EventHandler(this.UserPersonne_Load);
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvgclient)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersonne)).EndInit();
             this.guna2ContextMenuStrip1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.pnlrecette.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gestion_personneDataSet)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.spselectpersonnesBindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -453,14 +484,7 @@
         private System.Windows.Forms.ToolStripLabel toollabelnumero;
         private System.Windows.Forms.ToolStripLabel toolStripLabel2;
         private System.Windows.Forms.ToolStripLabel toollabelnbrgridvieuw;
-        public System.Windows.Forms.DataGridView dvgclient;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn noms_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn adresse_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telephone_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn categorie;
-        private System.Windows.Forms.DataGridViewTextBoxColumn email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn description_client;
+        public System.Windows.Forms.DataGridView dgvPersonne;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem modifierPersonnelToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem supprimerPersonnelToolStripMenuItem;
@@ -470,11 +494,20 @@
         public System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ToolTip toolTip1;
         private System.Windows.Forms.Button btnsupp;
-        private System.Windows.Forms.TextBox txtrech;
         private System.Windows.Forms.Button btnmod;
         private System.Windows.Forms.Button btnajout;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.Windows.Forms.ToolStripButton copierToolStripButton;
+        private System.Windows.Forms.BindingSource spselectpersonnesBindingSource;
+        private gestion_personneDataSet gestion_personneDataSet;
+        private gestion_personneDataSetTableAdapters.sp_select_personnesTableAdapter sp_select_personnesTableAdapter;
+        private Guna.UI2.WinForms.Guna2TextBox txtrech;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn postnom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prenom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sex;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomComplet;
     }
 }

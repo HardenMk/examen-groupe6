@@ -44,25 +44,25 @@
             this.btnpanel = new System.Windows.Forms.Button();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fichierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.changerMotDePasseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.seDeconnecterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.cacherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.quitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnparametre = new System.Windows.Forms.ToolStripMenuItem();
             this.utilisateurToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gererLesUtilisateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnconnexion = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnoutils = new System.Windows.Forms.ToolStripMenuItem();
+            this.rapportToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesPersonnesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.adressesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.affichageToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aideToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.aProposToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.barreDoutilsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.barreDetatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel2.SuspendLayout();
             this.pnla.SuspendLayout();
             this.panelbutton.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -70,9 +70,9 @@
             this.panel2.Controls.Add(this.pnla);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 26);
+            this.panel2.Location = new System.Drawing.Point(0, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1220, 617);
+            this.panel2.Size = new System.Drawing.Size(1220, 638);
             this.panel2.TabIndex = 5;
             // 
             // pnla
@@ -83,22 +83,23 @@
             this.pnla.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnla.Location = new System.Drawing.Point(0, 24);
             this.pnla.Name = "pnla";
-            this.pnla.Size = new System.Drawing.Size(1220, 593);
+            this.pnla.Size = new System.Drawing.Size(1220, 614);
             this.pnla.TabIndex = 1;
             // 
             // pnlafficher
             // 
+            this.pnlafficher.BackColor = System.Drawing.Color.White;
             this.pnlafficher.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlafficher.Location = new System.Drawing.Point(204, 0);
             this.pnlafficher.Name = "pnlafficher";
-            this.pnlafficher.Size = new System.Drawing.Size(1016, 570);
+            this.pnlafficher.Size = new System.Drawing.Size(1016, 591);
             this.pnlafficher.TabIndex = 2;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(204, 570);
+            this.panel4.Location = new System.Drawing.Point(204, 591);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1016, 23);
             this.panel4.TabIndex = 1;
@@ -115,7 +116,7 @@
             this.panelbutton.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelbutton.Location = new System.Drawing.Point(0, 0);
             this.panelbutton.Name = "panelbutton";
-            this.panelbutton.Size = new System.Drawing.Size(204, 593);
+            this.panelbutton.Size = new System.Drawing.Size(204, 614);
             this.panelbutton.TabIndex = 0;
             // 
             // btnDomicile
@@ -138,7 +139,7 @@
             // 
             // pnltop
             // 
-            this.pnltop.BackColor = System.Drawing.Color.Crimson;
+            this.pnltop.BackColor = System.Drawing.Color.Teal;
             this.pnltop.Location = new System.Drawing.Point(3, 77);
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(10, 38);
@@ -208,6 +209,7 @@
             this.btnpanel.Size = new System.Drawing.Size(29, 27);
             this.btnpanel.TabIndex = 0;
             this.btnpanel.UseVisualStyleBackColor = true;
+            this.btnpanel.Click += new System.EventHandler(this.btnpanel_Click);
             // 
             // menuStrip1
             // 
@@ -215,8 +217,7 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fichierToolStripMenuItem,
             this.btnparametre,
-            this.affichageToolStripMenuItem,
-            this.aideToolStripMenuItem});
+            this.btnoutils});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1220, 24);
@@ -226,7 +227,8 @@
             // fichierToolStripMenuItem
             // 
             this.fichierToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.changerMotDePasseToolStripMenuItem,
+            this.seDeconnecterToolStripMenuItem,
+            this.toolStripSeparator1,
             this.cacherToolStripMenuItem,
             this.quitterToolStripMenuItem});
             this.fichierToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -235,23 +237,29 @@
             this.fichierToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.fichierToolStripMenuItem.Text = "Fichier";
             // 
-            // changerMotDePasseToolStripMenuItem
+            // seDeconnecterToolStripMenuItem
             // 
-            this.changerMotDePasseToolStripMenuItem.Name = "changerMotDePasseToolStripMenuItem";
-            this.changerMotDePasseToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
-            this.changerMotDePasseToolStripMenuItem.Text = "Changer mot de passe";
+            this.seDeconnecterToolStripMenuItem.Name = "seDeconnecterToolStripMenuItem";
+            this.seDeconnecterToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
+            this.seDeconnecterToolStripMenuItem.Text = "Se deconnecter";
+            this.seDeconnecterToolStripMenuItem.Click += new System.EventHandler(this.seDeconnecterToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(152, 6);
             // 
             // cacherToolStripMenuItem
             // 
             this.cacherToolStripMenuItem.Name = "cacherToolStripMenuItem";
-            this.cacherToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.cacherToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.cacherToolStripMenuItem.Text = "Cacher";
             this.cacherToolStripMenuItem.Click += new System.EventHandler(this.cacherToolStripMenuItem_Click);
             // 
             // quitterToolStripMenuItem
             // 
             this.quitterToolStripMenuItem.Name = "quitterToolStripMenuItem";
-            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(192, 22);
+            this.quitterToolStripMenuItem.Size = new System.Drawing.Size(155, 22);
             this.quitterToolStripMenuItem.Text = "Quitter";
             this.quitterToolStripMenuItem.Click += new System.EventHandler(this.quitterToolStripMenuItem_Click);
             // 
@@ -269,7 +277,7 @@
             this.utilisateurToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gererLesUtilisateursToolStripMenuItem});
             this.utilisateurToolStripMenuItem.Name = "utilisateurToolStripMenuItem";
-            this.utilisateurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.utilisateurToolStripMenuItem.Size = new System.Drawing.Size(237, 22);
             this.utilisateurToolStripMenuItem.Text = "Utilisateur";
             // 
             // gererLesUtilisateursToolStripMenuItem
@@ -277,84 +285,84 @@
             this.gererLesUtilisateursToolStripMenuItem.Name = "gererLesUtilisateursToolStripMenuItem";
             this.gererLesUtilisateursToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.gererLesUtilisateursToolStripMenuItem.Text = "Gerer les utilisateurs";
+            this.gererLesUtilisateursToolStripMenuItem.Click += new System.EventHandler(this.gererLesUtilisateursToolStripMenuItem_Click);
             // 
             // btnconnexion
             // 
             this.btnconnexion.Name = "btnconnexion";
-            this.btnconnexion.Size = new System.Drawing.Size(180, 22);
-            this.btnconnexion.Text = "Connexion";
+            this.btnconnexion.Size = new System.Drawing.Size(237, 22);
+            this.btnconnexion.Text = "Connecter la base des données";
             this.btnconnexion.Click += new System.EventHandler(this.btnconnexion_Click);
+            // 
+            // btnoutils
+            // 
+            this.btnoutils.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.rapportToolStripMenuItem1,
+            this.adressesToolStripMenuItem1});
+            this.btnoutils.Name = "btnoutils";
+            this.btnoutils.Size = new System.Drawing.Size(50, 20);
+            this.btnoutils.Text = "Outils";
+            // 
+            // rapportToolStripMenuItem1
+            // 
+            this.rapportToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.listeDesPersonnesToolStripMenuItem,
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem,
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem});
+            this.rapportToolStripMenuItem1.Name = "rapportToolStripMenuItem1";
+            this.rapportToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.rapportToolStripMenuItem1.Text = "Rapport";
+            // 
+            // listeDesPersonnesToolStripMenuItem
+            // 
+            this.listeDesPersonnesToolStripMenuItem.Name = "listeDesPersonnesToolStripMenuItem";
+            this.listeDesPersonnesToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.listeDesPersonnesToolStripMenuItem.Text = "Liste des personnes";
+            this.listeDesPersonnesToolStripMenuItem.Click += new System.EventHandler(this.listeDesPersonnesToolStripMenuItem_Click);
+            // 
+            // listeDesPersonnesEtLeursNumerosToolStripMenuItem
+            // 
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem.Name = "listeDesPersonnesEtLeursNumerosToolStripMenuItem";
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem.Text = "Liste des personnes et leurs numeros";
+            this.listeDesPersonnesEtLeursNumerosToolStripMenuItem.Click += new System.EventHandler(this.listeDesPersonnesEtLeursNumerosToolStripMenuItem_Click);
+            // 
+            // listeDesPersonnesEtLeursDomicilesToolStripMenuItem
+            // 
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem.Name = "listeDesPersonnesEtLeursDomicilesToolStripMenuItem";
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem.Size = new System.Drawing.Size(267, 22);
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem.Text = "Liste des personnes et leurs adresses";
+            this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem.Click += new System.EventHandler(this.listeDesPersonnesEtLeursDomicilesToolStripMenuItem_Click);
+            // 
+            // adressesToolStripMenuItem1
+            // 
+            this.adressesToolStripMenuItem1.Name = "adressesToolStripMenuItem1";
+            this.adressesToolStripMenuItem1.Size = new System.Drawing.Size(120, 22);
+            this.adressesToolStripMenuItem1.Text = "Adresses";
+            this.adressesToolStripMenuItem1.Click += new System.EventHandler(this.adressesToolStripMenuItem1_Click);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            this.panel1.Controls.Add(this.button6);
+            this.panel1.BackColor = System.Drawing.Color.Teal;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1220, 26);
+            this.panel1.Size = new System.Drawing.Size(1220, 5);
             this.panel1.TabIndex = 4;
-            // 
-            // affichageToolStripMenuItem
-            // 
-            this.affichageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.barreDoutilsToolStripMenuItem,
-            this.barreDetatToolStripMenuItem});
-            this.affichageToolStripMenuItem.Name = "affichageToolStripMenuItem";
-            this.affichageToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
-            this.affichageToolStripMenuItem.Text = "Affichage";
-            // 
-            // aideToolStripMenuItem
-            // 
-            this.aideToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.aProposToolStripMenuItem});
-            this.aideToolStripMenuItem.Name = "aideToolStripMenuItem";
-            this.aideToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
-            this.aideToolStripMenuItem.Text = "Aide";
-            // 
-            // aProposToolStripMenuItem
-            // 
-            this.aProposToolStripMenuItem.Name = "aProposToolStripMenuItem";
-            this.aProposToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aProposToolStripMenuItem.Text = "A propos";
-            // 
-            // barreDoutilsToolStripMenuItem
-            // 
-            this.barreDoutilsToolStripMenuItem.Name = "barreDoutilsToolStripMenuItem";
-            this.barreDoutilsToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.barreDoutilsToolStripMenuItem.Text = "Barre d\'outils";
-            // 
-            // barreDetatToolStripMenuItem
-            // 
-            this.barreDetatToolStripMenuItem.Name = "barreDetatToolStripMenuItem";
-            this.barreDetatToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.barreDetatToolStripMenuItem.Text = "Barre d\'etat";
-            // 
-            // button6
-            // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
-            this.button6.Location = new System.Drawing.Point(1189, 0);
-            this.button6.Margin = new System.Windows.Forms.Padding(2);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(31, 26);
-            this.button6.TabIndex = 125;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // FRM_Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1220, 643);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FRM_Principal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FRM_Principal";
+            this.Text = "MENU PRINCIPAL";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -362,7 +370,6 @@
             this.panelbutton.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -374,7 +381,6 @@
         private System.Windows.Forms.Panel pnla;
         private System.Windows.Forms.Panel pnlafficher;
         private System.Windows.Forms.Panel panel4;
-        private System.Windows.Forms.Panel panelbutton;
         public System.Windows.Forms.Button btnDomicile;
         private System.Windows.Forms.Panel pnltop;
         public System.Windows.Forms.Button btnphone;
@@ -383,7 +389,6 @@
         private System.Windows.Forms.Button btnpanel;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem fichierToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem changerMotDePasseToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cacherToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem quitterToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem btnparametre;
@@ -391,11 +396,14 @@
         private System.Windows.Forms.ToolStripMenuItem gererLesUtilisateursToolStripMenuItem;
         public System.Windows.Forms.ToolStripMenuItem btnconnexion;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ToolStripMenuItem affichageToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aideToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem aProposToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem barreDoutilsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem barreDetatToolStripMenuItem;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.ToolStripMenuItem rapportToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem adressesToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem listeDesPersonnesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesPersonnesEtLeursNumerosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem listeDesPersonnesEtLeursDomicilesToolStripMenuItem;
+        public System.Windows.Forms.ToolStripMenuItem btnoutils;
+        private System.Windows.Forms.ToolStripMenuItem seDeconnecterToolStripMenuItem;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        public System.Windows.Forms.Panel panelbutton;
     }
 }

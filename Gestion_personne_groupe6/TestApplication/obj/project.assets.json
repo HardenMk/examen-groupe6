@@ -26,23 +26,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LK Augustin\\.nuget\\packages\\": {},
+    "C:\\Users\\Bethel\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
+      "projectUniqueName": "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
       "projectName": "TestApplication",
-      "projectPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
-      "packagesPath": "C:\\Users\\LK Augustin\\.nuget\\packages\\",
-      "outputPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\obj\\",
+      "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
+      "packagesPath": "C:\\Users\\Bethel\\.nuget\\packages\\",
+      "outputPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\LK Augustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Bethel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -57,8 +57,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "F:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
-              "projectPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
+            "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
+              "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
             }
           }
         }
@@ -94,7 +94,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

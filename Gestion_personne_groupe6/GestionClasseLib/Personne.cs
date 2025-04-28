@@ -251,6 +251,29 @@ namespace GestionClasseLib
         {
             return (_nom + " " + (string.IsNullOrEmpty(_postnom) ? "" : _postnom + " ") + _prenom).Trim();
         }
+
+        public List<IPersonne> RechercherPersonne(String txtrech)
+        {
+            List<IPersonne> lst = new List<IPersonne>();
+            string req = "select * from personne where nom like '%" + txtrech + "%' or postnom like '%" + txtrech + "%' or prenom like '%" + txtrech + "%' order by id asc";
+
+            ImplementerConnexion.connectioncreer();
+            using (SqlCommand cmd = ImplementerConnexion.con.CreateCommand())
+            {
+                cmd.CommandText = req;
+                cmd.CommandType = CommandType.Text;
+                IDataReader rd = cmd.ExecuteReader();
+
+                while (rd.Read())
+                {
+                    lst.Add(GetPersonne(rd));
+                }
+
+                rd.Dispose();
+            }
+
+            return lst;
+        }
     }
 }
 

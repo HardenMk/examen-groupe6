@@ -90,7 +90,13 @@ namespace GestionClasseLib
         }
 
 
-
+        public string AdresseComplet
+        {
+            get
+            {
+                return (_pays + " ,Ville:" + _ville +" ,Commune:" +_commune+" ,Quartier:"+_quartier).Trim();
+            }
+        }
         public int Nouveau()
         {
             int id = 0;
@@ -216,6 +222,27 @@ namespace GestionClasseLib
             return adresse;
         }
 
-      
+        public List<IAdresse> RechercherAdresse(String txtrech)
+        {
+            List<IAdresse> lst = new List<IAdresse>();
+            string req = "select * from adresse where pays like '%" + txtrech + "%' or ville like '%" + txtrech + "%' or commune like '%" + txtrech + "%' or quartier like '%" + txtrech + "%' order by id asc";
+
+            ImplementerConnexion.connectioncreer();
+            using (SqlCommand cmd = ImplementerConnexion.con.CreateCommand())
+            {
+                cmd.CommandText = req;
+                cmd.CommandType = CommandType.Text;
+                IDataReader rd = cmd.ExecuteReader();
+
+                while (rd.Read())
+                {
+                    lst.Add(GetAdresse(rd));
+                }
+
+                rd.Dispose();
+            }
+
+            return lst;
+        }
     }
 }

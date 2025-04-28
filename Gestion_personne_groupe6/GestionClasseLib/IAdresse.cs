@@ -13,10 +13,12 @@ namespace GestionClasseLib
         string commune { get; set; }
         string ville { get; set; }
         string pays { get; set; }
+        string AdresseComplet { get; }
         int Nouveau();
         void Enregistrer(IAdresse adresse);
         void Supprimer(int id);
         List<IAdresse> Adresses();
         IAdresse OneAdresse(int id);
+        List<IAdresse> RechercherAdresse(String txtrech);
     }
 }

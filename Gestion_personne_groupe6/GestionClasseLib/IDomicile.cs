@@ -12,13 +12,12 @@ namespace GestionClasseLib
         int id_personne { get; set; }
         int id_adresse { get; set; }
         string avenue { get; set; }
-        int numero_avenue { get; set; }
+        int numero_domicile { get; set; }       
         int Nouveau();
         void Enregistrer(IDomicile domicile);
         void Supprimer(int id);
         List<IDomicile> Domiciles();
-
-
+        List<IDomicile> RechercherDomicile(String txtrech);
 
     }
 }

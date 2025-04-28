@@ -30,59 +30,46 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Personne));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.btnajout = new Guna.UI2.WinForms.Guna2Button();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtprenom = new System.Windows.Forms.TextBox();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txttitre = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtcode = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtnom = new System.Windows.Forms.TextBox();
-            this.txtadresse = new System.Windows.Forms.TextBox();
+            this.txtpostnom = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.txtrech = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dvguser = new System.Windows.Forms.DataGridView();
+            this.cbxsexe = new System.Windows.Forms.ComboBox();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.resetToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.autoriserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.retirerAutorisationToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.actualiserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(this.components);
-            this.combocategorie = new System.Windows.Forms.ComboBox();
+            this.dgvPersonne = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.postnom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sex = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomComplet = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvguser)).BeginInit();
             this.guna2ContextMenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersonne)).BeginInit();
             this.SuspendLayout();
-            // 
-            // guna2Button3
-            // 
-            this.guna2Button3.BorderRadius = 20;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.Location = new System.Drawing.Point(376, 8);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button3.TabIndex = 8;
-            this.guna2Button3.Text = "Supprimer";
             // 
             // label6
             // 
@@ -97,8 +84,6 @@
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.Silver;
-            this.guna2Panel2.Controls.Add(this.guna2Button3);
-            this.guna2Panel2.Controls.Add(this.guna2Button1);
             this.guna2Panel2.Controls.Add(this.guna2Button2);
             this.guna2Panel2.Controls.Add(this.btnajout);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -106,22 +91,6 @@
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(900, 61);
             this.guna2Panel2.TabIndex = 148;
-            // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BorderRadius = 20;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(210, 6);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button1.TabIndex = 7;
-            this.guna2Button1.Text = "Modifier";
             // 
             // guna2Button2
             // 
@@ -136,7 +105,7 @@
             this.guna2Button2.Location = new System.Drawing.Point(739, 8);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button2.TabIndex = 6;
+            this.guna2Button2.TabIndex = 7;
             this.guna2Button2.Text = "Fermer";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
@@ -152,17 +121,18 @@
             this.btnajout.Location = new System.Drawing.Point(43, 6);
             this.btnajout.Name = "btnajout";
             this.btnajout.Size = new System.Drawing.Size(149, 45);
-            this.btnajout.TabIndex = 5;
+            this.btnajout.TabIndex = 6;
             this.btnajout.Text = "Enregistrer";
+            this.btnajout.Click += new System.EventHandler(this.btnajout_Click);
             // 
-            // textBox2
+            // txtprenom
             // 
-            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox2.Location = new System.Drawing.Point(36, 219);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(221, 28);
-            this.textBox2.TabIndex = 114;
+            this.txtprenom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprenom.Location = new System.Drawing.Point(36, 219);
+            this.txtprenom.Multiline = true;
+            this.txtprenom.Name = "txtprenom";
+            this.txtprenom.Size = new System.Drawing.Size(221, 28);
+            this.txtprenom.TabIndex = 4;
             // 
             // guna2Panel1
             // 
@@ -174,6 +144,7 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(900, 76);
             this.guna2Panel1.TabIndex = 147;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // pictureBox1
             // 
@@ -206,14 +177,16 @@
             this.label5.TabIndex = 116;
             this.label5.Text = "Prenom";
             // 
-            // textBox1
+            // txtcode
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(36, 46);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 28);
-            this.textBox1.TabIndex = 112;
+            this.txtcode.BackColor = System.Drawing.Color.White;
+            this.txtcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcode.Location = new System.Drawing.Point(36, 46);
+            this.txtcode.Multiline = true;
+            this.txtcode.Name = "txtcode";
+            this.txtcode.ReadOnly = true;
+            this.txtcode.Size = new System.Drawing.Size(221, 28);
+            this.txtcode.TabIndex = 1;
             // 
             // label3
             // 
@@ -232,16 +205,16 @@
             this.txtnom.Multiline = true;
             this.txtnom.Name = "txtnom";
             this.txtnom.Size = new System.Drawing.Size(221, 28);
-            this.txtnom.TabIndex = 1;
+            this.txtnom.TabIndex = 2;
             // 
-            // txtadresse
+            // txtpostnom
             // 
-            this.txtadresse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtadresse.Location = new System.Drawing.Point(36, 160);
-            this.txtadresse.Multiline = true;
-            this.txtadresse.Name = "txtadresse";
-            this.txtadresse.Size = new System.Drawing.Size(221, 28);
-            this.txtadresse.TabIndex = 4;
+            this.txtpostnom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpostnom.Location = new System.Drawing.Point(36, 160);
+            this.txtpostnom.Multiline = true;
+            this.txtpostnom.Name = "txtpostnom";
+            this.txtpostnom.Size = new System.Drawing.Size(221, 28);
+            this.txtpostnom.TabIndex = 3;
             // 
             // label7
             // 
@@ -252,16 +225,6 @@
             this.label7.Size = new System.Drawing.Size(72, 20);
             this.label7.TabIndex = 109;
             this.label7.Text = "Postnom";
-            // 
-            // txtrech
-            // 
-            this.txtrech.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrech.Location = new System.Drawing.Point(465, 90);
-            this.txtrech.Multiline = true;
-            this.txtrech.Name = "txtrech";
-            this.txtrech.Size = new System.Drawing.Size(268, 30);
-            this.txtrech.TabIndex = 146;
-            this.txtrech.Text = "Recherche";
             // 
             // label1
             // 
@@ -275,15 +238,15 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.combocategorie);
+            this.groupBox1.Controls.Add(this.cbxsexe);
             this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.txtprenom);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.txtcode);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtnom);
-            this.groupBox1.Controls.Add(this.txtadresse);
+            this.groupBox1.Controls.Add(this.txtpostnom);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Location = new System.Drawing.Point(12, 82);
             this.groupBox1.Name = "groupBox1";
@@ -292,49 +255,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Identite";
             // 
-            // dvguser
+            // cbxsexe
             // 
-            this.dvguser.AllowUserToAddRows = false;
-            this.dvguser.AllowUserToDeleteRows = false;
-            this.dvguser.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.dvguser.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dvguser.BackgroundColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dvguser.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.dvguser.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvguser.ContextMenuStrip = this.guna2ContextMenuStrip1;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Silver;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dvguser.DefaultCellStyle = dataGridViewCellStyle5;
-            this.dvguser.EnableHeadersVisualStyles = false;
-            this.dvguser.Location = new System.Drawing.Point(325, 126);
-            this.dvguser.Name = "dvguser";
-            this.dvguser.ReadOnly = true;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dvguser.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.dvguser.RowHeadersVisible = false;
-            this.dvguser.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dvguser.Size = new System.Drawing.Size(563, 277);
-            this.dvguser.TabIndex = 145;
+            this.cbxsexe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxsexe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxsexe.FormattingEnabled = true;
+            this.cbxsexe.ItemHeight = 20;
+            this.cbxsexe.Items.AddRange(new object[] {
+            "Abonné",
+            "Non abonné"});
+            this.cbxsexe.Location = new System.Drawing.Point(36, 279);
+            this.cbxsexe.Name = "cbxsexe";
+            this.cbxsexe.Size = new System.Drawing.Size(221, 28);
+            this.cbxsexe.TabIndex = 5;
             // 
             // guna2ContextMenuStrip1
             // 
@@ -385,73 +318,153 @@
             this.guna2AnimateWindow1.AnimationType = Guna.UI2.WinForms.Guna2AnimateWindow.AnimateWindowType.AW_HOR_POSITIVE;
             this.guna2AnimateWindow1.TargetForm = this;
             // 
-            // combocategorie
+            // dgvPersonne
             // 
-            this.combocategorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combocategorie.FormattingEnabled = true;
-            this.combocategorie.Items.AddRange(new object[] {
-            "Abonné",
-            "Non abonné"});
-            this.combocategorie.Location = new System.Drawing.Point(36, 279);
-            this.combocategorie.Name = "combocategorie";
-            this.combocategorie.Size = new System.Drawing.Size(221, 28);
-            this.combocategorie.TabIndex = 118;
+            this.dgvPersonne.AllowUserToAddRows = false;
+            this.dgvPersonne.AllowUserToDeleteRows = false;
+            this.dgvPersonne.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.dgvPersonne.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dgvPersonne.BackgroundColor = System.Drawing.Color.White;
+            this.dgvPersonne.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvPersonne.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dgvPersonne.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvPersonne.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
+            this.nom,
+            this.postnom,
+            this.prenom,
+            this.sex,
+            this.nomComplet});
+            this.dgvPersonne.ContextMenuStrip = this.guna2ContextMenuStrip1;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dgvPersonne.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dgvPersonne.EnableHeadersVisualStyles = false;
+            this.dgvPersonne.Location = new System.Drawing.Point(331, 91);
+            this.dgvPersonne.Name = "dgvPersonne";
+            this.dgvPersonne.ReadOnly = true;
+            this.dgvPersonne.RowHeadersVisible = false;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Gray;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.dgvPersonne.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dgvPersonne.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dgvPersonne.Size = new System.Drawing.Size(557, 298);
+            this.dgvPersonne.TabIndex = 37;
+            // 
+            // Id
+            // 
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "#";
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
+            // 
+            // nom
+            // 
+            this.nom.DataPropertyName = "Nom";
+            this.nom.HeaderText = "Nom";
+            this.nom.Name = "nom";
+            this.nom.ReadOnly = true;
+            // 
+            // postnom
+            // 
+            this.postnom.DataPropertyName = "Postnom";
+            this.postnom.HeaderText = "Postnom";
+            this.postnom.Name = "postnom";
+            this.postnom.ReadOnly = true;
+            // 
+            // prenom
+            // 
+            this.prenom.DataPropertyName = "Prenom";
+            this.prenom.HeaderText = "Prenom";
+            this.prenom.Name = "prenom";
+            this.prenom.ReadOnly = true;
+            // 
+            // sex
+            // 
+            this.sex.DataPropertyName = "Sex";
+            this.sex.HeaderText = "Genre";
+            this.sex.Name = "sex";
+            this.sex.ReadOnly = true;
+            // 
+            // nomComplet
+            // 
+            this.nomComplet.DataPropertyName = "NomComplet";
+            this.nomComplet.HeaderText = "Noms";
+            this.nomComplet.Name = "nomComplet";
+            this.nomComplet.ReadOnly = true;
+            this.nomComplet.Visible = false;
             // 
             // FRM_Personne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(900, 470);
+            this.Controls.Add(this.dgvPersonne);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
-            this.Controls.Add(this.txtrech);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.dvguser);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "FRM_Personne";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_Personne";
+            this.Load += new System.EventHandler(this.FRM_Personne_Load);
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvguser)).EndInit();
             this.guna2ContextMenuStrip1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvPersonne)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
         public System.Windows.Forms.Label label6;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Button btnajout;
-        public System.Windows.Forms.TextBox textBox2;
+        public System.Windows.Forms.TextBox txtprenom;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label txttitre;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox txtcode;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox txtnom;
-        public System.Windows.Forms.TextBox txtadresse;
+        public System.Windows.Forms.TextBox txtpostnom;
         public System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox txtrech;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.DataGridView dvguser;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem resetToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem autoriserToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem retirerAutorisationToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem actualiserToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        public System.Windows.Forms.ComboBox combocategorie;
+        public System.Windows.Forms.ComboBox cbxsexe;
+        public System.Windows.Forms.DataGridView dgvPersonne;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn postnom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn prenom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn sex;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomComplet;
     }
 }

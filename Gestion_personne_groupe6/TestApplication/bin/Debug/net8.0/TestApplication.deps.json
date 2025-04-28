@@ -16,7 +16,7 @@
       },
       "GestionDeLaConnexion/1.0.0": {
         "runtime": {
-          "GestionDeLaConnexion.exe": {
+          "GestionDeLaConnexion.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }

@@ -32,9 +32,33 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>client.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GestionGUI.Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1652.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -94,6 +118,12 @@
     <Compile Include="FRM_ConnexionBd.Designer.cs">
       <DependentUpon>FRM_ConnexionBd.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_Imprimer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Imprimer.Designer.cs">
+      <DependentUpon>FRM_Imprimer.cs</DependentUpon>
+    </Compile>
     <Compile Include="FRM_Personne.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,8 +136,25 @@
     <Compile Include="FRM_Principal.Designer.cs">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
     </Compile>
+    <Compile Include="FRM_Utilisateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FRM_Utilisateur.Designer.cs">
+      <DependentUpon>FRM_Utilisateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_personneDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_personneDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="gestion_personneDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>gestion_personneDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
     <Compile Include="UserDomicile.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -147,11 +194,17 @@
     <EmbeddedResource Include="FRM_ConnexionBd.resx">
       <DependentUpon>FRM_ConnexionBd.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Imprimer.resx">
+      <DependentUpon>FRM_Imprimer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FRM_Personne.resx">
       <DependentUpon>FRM_Personne.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FRM_Principal.resx">
       <DependentUpon>FRM_Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FRM_Utilisateur.resx">
+      <DependentUpon>FRM_Utilisateur.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -162,6 +215,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Rapport\Rpt_liste_personneAdresses.rdlc" />
+    <EmbeddedResource Include="Rapport\Rpt_liste_personnes.rdlc" />
+    <EmbeddedResource Include="Rapport\Rpt_liste_personneTelephone.rdlc" />
     <EmbeddedResource Include="UserDomicile.resx">
       <DependentUpon>UserDomicile.cs</DependentUpon>
     </EmbeddedResource>
@@ -171,6 +227,28 @@
     <EmbeddedResource Include="UserTelephone.resx">
       <DependentUpon>UserTelephone.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="gestion_personneDataSet.xsc">
+      <DependentUpon>gestion_personneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_personneDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_personneDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_personneDataSet.xss">
+      <DependentUpon>gestion_personneDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_personneDataSet1.xsc">
+      <DependentUpon>gestion_personneDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="gestion_personneDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>gestion_personneDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="gestion_personneDataSet1.xss">
+      <DependentUpon>gestion_personneDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -185,5 +263,32 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GestionClasseLib\GestionClasseLib.csproj">
+      <Project>{ec321830-8894-4645-aaea-42f54ad4eb69}</Project>
+      <Name>GestionClasseLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GestionDeLaConnexion\GestionDeLaConnexion.csproj">
+      <Project>{f6e6ba29-ed88-4844-ba62-b454161b36a1}</Project>
+      <Name>GestionDeLaConnexion</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="client.ico" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

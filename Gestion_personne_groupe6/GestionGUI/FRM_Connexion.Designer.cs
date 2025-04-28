@@ -72,42 +72,42 @@
             // guna2Button2
             // 
             this.guna2Button2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.guna2Button2.BorderColor = System.Drawing.Color.Teal;
             this.guna2Button2.BorderRadius = 10;
             this.guna2Button2.BorderThickness = 1;
             this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2Button2.FillColor = System.Drawing.Color.White;
             this.guna2Button2.FocusedColor = System.Drawing.Color.Gray;
             this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.guna2Button2.ForeColor = System.Drawing.Color.Teal;
             this.guna2Button2.Location = new System.Drawing.Point(403, 215);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(121, 33);
-            this.guna2Button2.TabIndex = 42;
+            this.guna2Button2.TabIndex = 4;
             this.guna2Button2.Text = "Annuler";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Button1
             // 
             this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.guna2Button1.BorderColor = System.Drawing.Color.Teal;
             this.guna2Button1.BorderRadius = 10;
             this.guna2Button1.BorderThickness = 1;
             this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
             this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.SystemColors.Control;
+            this.guna2Button1.FillColor = System.Drawing.Color.White;
             this.guna2Button1.FocusedColor = System.Drawing.Color.Gray;
             this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.guna2Button1.ForeColor = System.Drawing.Color.Teal;
             this.guna2Button1.Location = new System.Drawing.Point(276, 215);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(121, 33);
-            this.guna2Button1.TabIndex = 41;
+            this.guna2Button1.TabIndex = 3;
             this.guna2Button1.Text = "Connexion";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
@@ -139,7 +139,7 @@
             this.txtmtp.Name = "txtmtp";
             this.txtmtp.PasswordChar = '*';
             this.txtmtp.Size = new System.Drawing.Size(239, 30);
-            this.txtmtp.TabIndex = 38;
+            this.txtmtp.TabIndex = 2;
             // 
             // txtnom
             // 
@@ -148,13 +148,13 @@
             this.txtnom.Multiline = true;
             this.txtnom.Name = "txtnom";
             this.txtnom.Size = new System.Drawing.Size(239, 30);
-            this.txtnom.TabIndex = 37;
+            this.txtnom.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.label3.ForeColor = System.Drawing.Color.Teal;
             this.label3.Location = new System.Drawing.Point(284, 146);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(105, 20);
@@ -165,7 +165,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.label2.ForeColor = System.Drawing.Color.Teal;
             this.label2.Location = new System.Drawing.Point(281, 80);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(114, 20);
@@ -176,7 +176,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.label1.ForeColor = System.Drawing.Color.Teal;
             this.label1.Location = new System.Drawing.Point(238, 26);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(315, 25);
@@ -191,6 +191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(556, 275);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2Button2);
@@ -203,6 +204,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FRM_Connexion";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_Connexion";

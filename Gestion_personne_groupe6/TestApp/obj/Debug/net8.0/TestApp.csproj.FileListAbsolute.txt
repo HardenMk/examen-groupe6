@@ -36,3 +36,23 @@ C:\Users\Bethel\Downloads\Application cabinet\TestApp\obj\Debug\net8.0\refint\Te
 C:\Users\Bethel\Downloads\Application cabinet\TestApp\obj\Debug\net8.0\TestApp.pdb
 C:\Users\Bethel\Downloads\Application cabinet\TestApp\obj\Debug\net8.0\TestApp.genruntimeconfig.cache
 C:\Users\Bethel\Downloads\Application cabinet\TestApp\obj\Debug\net8.0\ref\TestApp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\TestApp.exe
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\TestApp.deps.json
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\TestApp.runtimeconfig.json
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\TestApp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\TestApp.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.AssemblyInfoInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.AssemblyInfo.cs
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.sourcelink.json
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.csproj.Up2Date
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\refint\TestApp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\TestApp.genruntimeconfig.cache
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\obj\Debug\net8.0\ref\TestApp.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\GestionDeLaConnexion.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApp\bin\Debug\net8.0\GestionDeLaConnexion.dll.config

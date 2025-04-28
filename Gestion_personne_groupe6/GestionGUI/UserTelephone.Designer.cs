@@ -37,16 +37,16 @@
             this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.btnsupp = new System.Windows.Forms.Button();
-            this.txtrech = new System.Windows.Forms.TextBox();
             this.btnmod = new System.Windows.Forms.Button();
             this.btnajout = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtrech = new Guna.UI2.WinForms.Guna2TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.enregistrerToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.imprimerToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.couperToolStripButton = new System.Windows.Forms.ToolStripButton();
+            this.imprimerToolStripButton = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
             this.toollabelnumero = new System.Windows.Forms.ToolStripLabel();
@@ -58,21 +58,22 @@
             this.modifierPersonnelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.guna2ContextMenuStrip1 = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
             this.actualiserToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.description_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.categorie = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.dvgclient = new System.Windows.Forms.DataGridView();
-            this.id_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dvgphone = new System.Windows.Forms.DataGridView();
+            this.Id = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.noms_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.adresse_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telephone_client = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Postnom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Prenom = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NumeroComplet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nomComplet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.initial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.numero = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             this.panel1.SuspendLayout();
             this.toolStrip2.SuspendLayout();
             this.pnlrecette.SuspendLayout();
             this.guna2ContextMenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dvgclient)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgphone)).BeginInit();
             this.SuspendLayout();
             // 
             // copierToolStripButton
@@ -83,6 +84,7 @@
             this.copierToolStripButton.Name = "copierToolStripButton";
             this.copierToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.copierToolStripButton.Text = "Co&pier";
+            this.copierToolStripButton.Click += new System.EventHandler(this.copierToolStripButton_Click);
             // 
             // btnsupp
             // 
@@ -102,16 +104,7 @@
             this.btnsupp.Text = "Supprimer Numero";
             this.btnsupp.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnsupp.UseVisualStyleBackColor = false;
-            // 
-            // txtrech
-            // 
-            this.txtrech.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtrech.Location = new System.Drawing.Point(570, 18);
-            this.txtrech.Multiline = true;
-            this.txtrech.Name = "txtrech";
-            this.txtrech.Size = new System.Drawing.Size(274, 30);
-            this.txtrech.TabIndex = 60;
-            this.txtrech.Text = "Recherche";
+            this.btnsupp.Click += new System.EventHandler(this.btnsupp_Click);
             // 
             // btnmod
             // 
@@ -131,6 +124,7 @@
             this.btnmod.Text = "Modifier Numero";
             this.btnmod.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnmod.UseVisualStyleBackColor = false;
+            this.btnmod.Click += new System.EventHandler(this.btnmod_Click);
             // 
             // btnajout
             // 
@@ -156,8 +150,8 @@
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.groupBox1.Controls.Add(this.btnsupp);
             this.groupBox1.Controls.Add(this.txtrech);
+            this.groupBox1.Controls.Add(this.btnsupp);
             this.groupBox1.Controls.Add(this.btnmod);
             this.groupBox1.Controls.Add(this.btnajout);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -169,28 +163,50 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
+            // txtrech
+            // 
+            this.txtrech.BorderThickness = 2;
+            this.txtrech.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txtrech.DefaultText = "";
+            this.txtrech.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.txtrech.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.txtrech.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtrech.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.txtrech.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtrech.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtrech.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.txtrech.Location = new System.Drawing.Point(571, 16);
+            this.txtrech.Name = "txtrech";
+            this.txtrech.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.txtrech.PlaceholderText = "Recherche";
+            this.txtrech.SelectedText = "";
+            this.txtrech.Size = new System.Drawing.Size(262, 29);
+            this.txtrech.TabIndex = 64;
+            this.txtrech.TextChanged += new System.EventHandler(this.txtrech_TextChanged);
+            // 
             // panel1
             // 
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.SystemColors.Control;
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.toolStrip2);
             this.panel1.Location = new System.Drawing.Point(1, 82);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1040, 29);
             this.panel1.TabIndex = 38;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // toolStrip2
             // 
-            this.toolStrip2.BackColor = System.Drawing.SystemColors.Control;
+            this.toolStrip2.BackColor = System.Drawing.Color.White;
             this.toolStrip2.Dock = System.Windows.Forms.DockStyle.None;
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.enregistrerToolStripButton,
-            this.imprimerToolStripButton,
             this.toolStripSeparator,
             this.couperToolStripButton,
             this.copierToolStripButton,
+            this.imprimerToolStripButton,
             this.toolStripSeparator2,
             this.toolStripSeparator3,
             this.toollabelnumero,
@@ -210,15 +226,7 @@
             this.enregistrerToolStripButton.Name = "enregistrerToolStripButton";
             this.enregistrerToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.enregistrerToolStripButton.Text = "&Enregistrer";
-            // 
-            // imprimerToolStripButton
-            // 
-            this.imprimerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("imprimerToolStripButton.Image")));
-            this.imprimerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.imprimerToolStripButton.Name = "imprimerToolStripButton";
-            this.imprimerToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.imprimerToolStripButton.Text = "&Imprimer";
+            this.enregistrerToolStripButton.Click += new System.EventHandler(this.enregistrerToolStripButton_Click);
             // 
             // toolStripSeparator
             // 
@@ -233,6 +241,17 @@
             this.couperToolStripButton.Name = "couperToolStripButton";
             this.couperToolStripButton.Size = new System.Drawing.Size(23, 22);
             this.couperToolStripButton.Text = "C&ouper";
+            this.couperToolStripButton.Click += new System.EventHandler(this.couperToolStripButton_Click);
+            // 
+            // imprimerToolStripButton
+            // 
+            this.imprimerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.imprimerToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("imprimerToolStripButton.Image")));
+            this.imprimerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.imprimerToolStripButton.Name = "imprimerToolStripButton";
+            this.imprimerToolStripButton.Size = new System.Drawing.Size(23, 22);
+            this.imprimerToolStripButton.Text = "&Imprimer";
+            this.imprimerToolStripButton.Click += new System.EventHandler(this.imprimerToolStripButton_Click);
             // 
             // toolStripSeparator2
             // 
@@ -266,12 +285,13 @@
             // 
             this.pnlrecette.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.pnlrecette.BackColor = System.Drawing.SystemColors.Control;
+            this.pnlrecette.BackColor = System.Drawing.Color.White;
             this.pnlrecette.Controls.Add(this.groupBox1);
             this.pnlrecette.Location = new System.Drawing.Point(0, 0);
             this.pnlrecette.Name = "pnlrecette";
             this.pnlrecette.Size = new System.Drawing.Size(1044, 76);
             this.pnlrecette.TabIndex = 37;
+            this.pnlrecette.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlrecette_Paint);
             // 
             // imprimerListeClientToolStripMenuItem
             // 
@@ -318,56 +338,35 @@
             this.actualiserToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.actualiserToolStripMenuItem.Text = "Actualiser";
             // 
-            // description_client
+            // dvgphone
             // 
-            this.description_client.DataPropertyName = "description_client";
-            this.description_client.HeaderText = "Description";
-            this.description_client.Name = "description_client";
-            this.description_client.ReadOnly = true;
-            // 
-            // email
-            // 
-            this.email.DataPropertyName = "email";
-            this.email.HeaderText = "Email";
-            this.email.Name = "email";
-            this.email.ReadOnly = true;
-            // 
-            // categorie
-            // 
-            this.categorie.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.categorie.DataPropertyName = "categorie";
-            this.categorie.HeaderText = "Categorie";
-            this.categorie.Name = "categorie";
-            this.categorie.ReadOnly = true;
-            // 
-            // dvgclient
-            // 
-            this.dvgclient.AllowUserToAddRows = false;
-            this.dvgclient.AllowUserToDeleteRows = false;
-            this.dvgclient.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.dvgphone.AllowUserToAddRows = false;
+            this.dvgphone.AllowUserToDeleteRows = false;
+            this.dvgphone.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dvgclient.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dvgclient.BackgroundColor = System.Drawing.SystemColors.Control;
-            this.dvgclient.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dvgphone.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dvgphone.BackgroundColor = System.Drawing.Color.White;
+            this.dvgphone.BorderStyle = System.Windows.Forms.BorderStyle.None;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Teal;
             dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Teal;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dvgclient.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.dvgclient.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dvgclient.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.id_client,
+            this.dvgphone.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dvgphone.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dvgphone.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Id,
             this.noms_client,
-            this.adresse_client,
-            this.telephone_client,
-            this.categorie,
-            this.email,
-            this.description_client});
-            this.dvgclient.ContextMenuStrip = this.guna2ContextMenuStrip1;
+            this.Postnom,
+            this.Prenom,
+            this.NumeroComplet,
+            this.nomComplet,
+            this.initial,
+            this.numero});
+            this.dvgphone.ContextMenuStrip = this.guna2ContextMenuStrip1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -375,66 +374,94 @@
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dvgclient.DefaultCellStyle = dataGridViewCellStyle2;
-            this.dvgclient.EnableHeadersVisualStyles = false;
-            this.dvgclient.Location = new System.Drawing.Point(0, 119);
-            this.dvgclient.Name = "dvgclient";
-            this.dvgclient.ReadOnly = true;
-            this.dvgclient.RowHeadersVisible = false;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
-            this.dvgclient.RowsDefaultCellStyle = dataGridViewCellStyle3;
-            this.dvgclient.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dvgclient.Size = new System.Drawing.Size(1044, 375);
-            this.dvgclient.TabIndex = 39;
+            this.dvgphone.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dvgphone.EnableHeadersVisualStyles = false;
+            this.dvgphone.Location = new System.Drawing.Point(0, 119);
+            this.dvgphone.Name = "dvgphone";
+            this.dvgphone.ReadOnly = true;
+            this.dvgphone.RowHeadersVisible = false;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Silver;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.dvgphone.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            this.dvgphone.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dvgphone.Size = new System.Drawing.Size(1044, 375);
+            this.dvgphone.TabIndex = 39;
+            this.dvgphone.Click += new System.EventHandler(this.dvgphone_Click);
+            this.dvgphone.DoubleClick += new System.EventHandler(this.dvgphone_DoubleClick);
             // 
-            // id_client
+            // Id
             // 
-            this.id_client.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.id_client.DataPropertyName = "id_client";
-            this.id_client.HeaderText = "Id";
-            this.id_client.Name = "id_client";
-            this.id_client.ReadOnly = true;
+            this.Id.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Id.DataPropertyName = "Id";
+            this.Id.HeaderText = "#";
+            this.Id.Name = "Id";
+            this.Id.ReadOnly = true;
             // 
             // noms_client
             // 
-            this.noms_client.DataPropertyName = "noms_client";
-            this.noms_client.HeaderText = "Noms";
+            this.noms_client.HeaderText = "Nom";
             this.noms_client.Name = "noms_client";
             this.noms_client.ReadOnly = true;
             // 
-            // adresse_client
+            // Postnom
             // 
-            this.adresse_client.DataPropertyName = "adresse_client";
-            this.adresse_client.HeaderText = "Adresse";
-            this.adresse_client.Name = "adresse_client";
-            this.adresse_client.ReadOnly = true;
+            this.Postnom.HeaderText = "Postnom";
+            this.Postnom.Name = "Postnom";
+            this.Postnom.ReadOnly = true;
             // 
-            // telephone_client
+            // Prenom
             // 
-            this.telephone_client.DataPropertyName = "telephone_client";
-            this.telephone_client.HeaderText = "Telephone";
-            this.telephone_client.Name = "telephone_client";
-            this.telephone_client.ReadOnly = true;
+            this.Prenom.HeaderText = "Prenom";
+            this.Prenom.Name = "Prenom";
+            this.Prenom.ReadOnly = true;
+            // 
+            // NumeroComplet
+            // 
+            this.NumeroComplet.DataPropertyName = "numeroComplet";
+            this.NumeroComplet.HeaderText = "Numero";
+            this.NumeroComplet.Name = "NumeroComplet";
+            this.NumeroComplet.ReadOnly = true;
+            // 
+            // nomComplet
+            // 
+            this.nomComplet.HeaderText = "nomComplet";
+            this.nomComplet.Name = "nomComplet";
+            this.nomComplet.ReadOnly = true;
+            this.nomComplet.Visible = false;
+            // 
+            // initial
+            // 
+            this.initial.HeaderText = "initial";
+            this.initial.Name = "initial";
+            this.initial.ReadOnly = true;
+            this.initial.Visible = false;
+            // 
+            // numero
+            // 
+            this.numero.HeaderText = "numero";
+            this.numero.Name = "numero";
+            this.numero.ReadOnly = true;
+            this.numero.Visible = false;
             // 
             // UserTelephone
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.pnlrecette);
-            this.Controls.Add(this.dvgclient);
+            this.Controls.Add(this.dvgphone);
             this.Name = "UserTelephone";
             this.Size = new System.Drawing.Size(1044, 495);
+            this.Load += new System.EventHandler(this.UserTelephone_Load);
             this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.toolStrip2.ResumeLayout(false);
             this.toolStrip2.PerformLayout();
             this.pnlrecette.ResumeLayout(false);
             this.guna2ContextMenuStrip1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dvgclient)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dvgphone)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -445,7 +472,6 @@
         private System.ComponentModel.BackgroundWorker backgroundWorker2;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.Button btnsupp;
-        private System.Windows.Forms.TextBox txtrech;
         private System.Windows.Forms.Button btnmod;
         private System.Windows.Forms.Button btnajout;
         public System.Windows.Forms.GroupBox groupBox1;
@@ -466,14 +492,16 @@
         private System.Windows.Forms.ToolStripMenuItem modifierPersonnelToolStripMenuItem;
         private Guna.UI2.WinForms.Guna2ContextMenuStrip guna2ContextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem actualiserToolStripMenuItem;
-        private System.Windows.Forms.DataGridViewTextBoxColumn description_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn categorie;
         private System.Windows.Forms.ToolTip toolTip1;
-        public System.Windows.Forms.DataGridView dvgclient;
-        private System.Windows.Forms.DataGridViewTextBoxColumn id_client;
+        public System.Windows.Forms.DataGridView dvgphone;
+        private Guna.UI2.WinForms.Guna2TextBox txtrech;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Id;
         private System.Windows.Forms.DataGridViewTextBoxColumn noms_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn adresse_client;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telephone_client;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Postnom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Prenom;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NumeroComplet;
+        private System.Windows.Forms.DataGridViewTextBoxColumn nomComplet;
+        private System.Windows.Forms.DataGridViewTextBoxColumn initial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn numero;
     }
 }

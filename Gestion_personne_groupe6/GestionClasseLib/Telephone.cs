@@ -83,7 +83,7 @@ namespace GestionClasseLib
         {
             get
             {
-                return this._initial + this._numero;
+                return this._initial +" "+ this._numero;
             }
         }
 
@@ -222,6 +222,29 @@ namespace GestionClasseLib
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.Add(Parametres.getInstance.AjouterParametre(cmd, "@id_personne", 4, DbType.Int32, id_personne));
 
+                IDataReader rd = cmd.ExecuteReader();
+
+                while (rd.Read())
+                {
+                    lst.Add(GetPhone(rd));
+                }
+
+                rd.Dispose();
+            }
+
+            return lst;
+        }
+
+        public List<ITelephone> RechercherTelephone(String txtrech)
+        {
+            List<ITelephone> lst = new List<ITelephone>();
+            string req = "select t.id,t.id_proprietaire,t.initial,t.numero from telephone t inner join personne p on t.id_proprietaire=p.id where nom like '%" + txtrech + "%' or postnom like '%" + txtrech + "%' or prenom like '%" + txtrech + "%' order by id asc";
+
+            ImplementerConnexion.connectioncreer();
+            using (SqlCommand cmd = ImplementerConnexion.con.CreateCommand())
+            {
+                cmd.CommandText = req;
+                cmd.CommandType = CommandType.Text;
                 IDataReader rd = cmd.ExecuteReader();
 
                 while (rd.Read())

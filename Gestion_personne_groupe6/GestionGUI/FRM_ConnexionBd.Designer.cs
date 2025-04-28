@@ -92,7 +92,7 @@
             this.txtMotdePasse.Multiline = true;
             this.txtMotdePasse.Name = "txtMotdePasse";
             this.txtMotdePasse.Size = new System.Drawing.Size(218, 28);
-            this.txtMotdePasse.TabIndex = 132;
+            this.txtMotdePasse.TabIndex = 3;
             // 
             // txtUser
             // 
@@ -102,7 +102,7 @@
             this.txtUser.Multiline = true;
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(218, 28);
-            this.txtUser.TabIndex = 131;
+            this.txtUser.TabIndex = 2;
             // 
             // txtLocal
             // 
@@ -112,7 +112,7 @@
             this.txtLocal.Multiline = true;
             this.txtLocal.Name = "txtLocal";
             this.txtLocal.Size = new System.Drawing.Size(218, 28);
-            this.txtLocal.TabIndex = 130;
+            this.txtLocal.TabIndex = 1;
             // 
             // cbxbd
             // 
@@ -124,8 +124,9 @@
             this.cbxbd.Margin = new System.Windows.Forms.Padding(2);
             this.cbxbd.Name = "cbxbd";
             this.cbxbd.Size = new System.Drawing.Size(218, 28);
-            this.cbxbd.TabIndex = 128;
+            this.cbxbd.TabIndex = 4;
             this.cbxbd.Text = "Base des donnees";
+            this.cbxbd.Enter += new System.EventHandler(this.cbxbd_Enter);
             // 
             // panel8
             // 
@@ -147,7 +148,7 @@
             // 
             // btnConnecter
             // 
-            this.btnConnecter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(178)))), ((int)(((byte)(8)))), ((int)(((byte)(55)))));
+            this.btnConnecter.BackColor = System.Drawing.Color.Teal;
             this.btnConnecter.FlatAppearance.BorderSize = 0;
             this.btnConnecter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnConnecter.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -156,9 +157,10 @@
             this.btnConnecter.Margin = new System.Windows.Forms.Padding(2);
             this.btnConnecter.Name = "btnConnecter";
             this.btnConnecter.Size = new System.Drawing.Size(218, 38);
-            this.btnConnecter.TabIndex = 129;
+            this.btnConnecter.TabIndex = 5;
             this.btnConnecter.Text = "Se connecter";
             this.btnConnecter.UseVisualStyleBackColor = false;
+            this.btnConnecter.Click += new System.EventHandler(this.btnConnecter_Click);
             // 
             // panel6
             // 
@@ -177,6 +179,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(444, 238);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);

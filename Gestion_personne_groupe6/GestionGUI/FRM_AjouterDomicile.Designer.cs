@@ -33,14 +33,14 @@
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cbxPersonne = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.txtphone = new System.Windows.Forms.TextBox();
+            this.txtId = new System.Windows.Forms.TextBox();
+            this.txtnumeroavenue = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.combocategorie = new System.Windows.Forms.ComboBox();
+            this.cbxAdresse = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtadresse = new System.Windows.Forms.TextBox();
+            this.txtavenue = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txttitre = new System.Windows.Forms.Label();
@@ -69,36 +69,37 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.cbxPersonne);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txtphone);
+            this.groupBox1.Controls.Add(this.txtId);
+            this.groupBox1.Controls.Add(this.txtnumeroavenue);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.combocategorie);
+            this.groupBox1.Controls.Add(this.cbxAdresse);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtadresse);
+            this.groupBox1.Controls.Add(this.txtavenue);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Location = new System.Drawing.Point(12, 81);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(720, 211);
+            this.groupBox1.Size = new System.Drawing.Size(720, 264);
             this.groupBox1.TabIndex = 135;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Identite";
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // comboBox1
+            // cbxPersonne
             // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.cbxPersonne.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cbxPersonne.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbxPersonne.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxPersonne.FormattingEnabled = true;
+            this.cbxPersonne.ItemHeight = 25;
+            this.cbxPersonne.Items.AddRange(new object[] {
             "Abonné",
             "Non abonné"});
-            this.comboBox1.Location = new System.Drawing.Point(61, 99);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(283, 28);
-            this.comboBox1.TabIndex = 114;
+            this.cbxPersonne.Location = new System.Drawing.Point(61, 99);
+            this.cbxPersonne.Name = "cbxPersonne";
+            this.cbxPersonne.Size = new System.Drawing.Size(344, 33);
+            this.cbxPersonne.TabIndex = 2;
             // 
             // label5
             // 
@@ -110,72 +111,73 @@
             this.label5.TabIndex = 115;
             this.label5.Text = "Personne";
             // 
-            // textBox1
+            // txtId
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(61, 38);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 28);
-            this.textBox1.TabIndex = 112;
+            this.txtId.BackColor = System.Drawing.Color.White;
+            this.txtId.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtId.Location = new System.Drawing.Point(61, 38);
+            this.txtId.Multiline = true;
+            this.txtId.Name = "txtId";
+            this.txtId.ReadOnly = true;
+            this.txtId.Size = new System.Drawing.Size(221, 28);
+            this.txtId.TabIndex = 1;
             // 
-            // txtphone
+            // txtnumeroavenue
             // 
-            this.txtphone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtphone.Location = new System.Drawing.Point(401, 173);
-            this.txtphone.Multiline = true;
-            this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(221, 28);
-            this.txtphone.TabIndex = 3;
+            this.txtnumeroavenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtnumeroavenue.Location = new System.Drawing.Point(401, 227);
+            this.txtnumeroavenue.Multiline = true;
+            this.txtnumeroavenue.Name = "txtnumeroavenue";
+            this.txtnumeroavenue.Size = new System.Drawing.Size(221, 28);
+            this.txtnumeroavenue.TabIndex = 5;
+            this.txtnumeroavenue.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnumeroavenue_KeyPress);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(397, 150);
+            this.label2.Location = new System.Drawing.Point(397, 204);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 20);
+            this.label2.Size = new System.Drawing.Size(125, 20);
             this.label2.TabIndex = 111;
-            this.label2.Text = "Numero Avenue";
+            this.label2.Text = "Numero Parcelle";
             // 
-            // combocategorie
+            // cbxAdresse
             // 
-            this.combocategorie.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.combocategorie.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.combocategorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combocategorie.FormattingEnabled = true;
-            this.combocategorie.Items.AddRange(new object[] {
-            "Abonné",
-            "Non abonné"});
-            this.combocategorie.Location = new System.Drawing.Point(401, 99);
-            this.combocategorie.Name = "combocategorie";
-            this.combocategorie.Size = new System.Drawing.Size(299, 28);
-            this.combocategorie.TabIndex = 2;
+            this.cbxAdresse.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cbxAdresse.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cbxAdresse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxAdresse.FormattingEnabled = true;
+            this.cbxAdresse.ItemHeight = 20;
+            this.cbxAdresse.Location = new System.Drawing.Point(61, 168);
+            this.cbxAdresse.Name = "cbxAdresse";
+            this.cbxAdresse.Size = new System.Drawing.Size(561, 28);
+            this.cbxAdresse.TabIndex = 3;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(397, 77);
+            this.label4.Location = new System.Drawing.Point(57, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(68, 20);
             this.label4.TabIndex = 107;
             this.label4.Text = "Adresse";
             // 
-            // txtadresse
+            // txtavenue
             // 
-            this.txtadresse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtadresse.Location = new System.Drawing.Point(61, 173);
-            this.txtadresse.Multiline = true;
-            this.txtadresse.Name = "txtadresse";
-            this.txtadresse.Size = new System.Drawing.Size(221, 28);
-            this.txtadresse.TabIndex = 4;
+            this.txtavenue.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtavenue.Location = new System.Drawing.Point(61, 227);
+            this.txtavenue.Multiline = true;
+            this.txtavenue.Name = "txtavenue";
+            this.txtavenue.Size = new System.Drawing.Size(221, 28);
+            this.txtavenue.TabIndex = 4;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(57, 150);
+            this.label7.Location = new System.Drawing.Point(57, 204);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(63, 20);
             this.label7.TabIndex = 109;
@@ -214,18 +216,19 @@
             this.guna2Button1.Location = new System.Drawing.Point(413, 6);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.TabIndex = 8;
             this.guna2Button1.Text = "Enregistrer";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Silver;
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Panel2.Controls.Add(this.guna2Button4);
             this.guna2Panel2.Controls.Add(this.guna2Button3);
             this.guna2Panel2.Controls.Add(this.guna2Button2);
             this.guna2Panel2.Controls.Add(this.guna2Button1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel2.Location = new System.Drawing.Point(0, 298);
+            this.guna2Panel2.Location = new System.Drawing.Point(0, 351);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.Size = new System.Drawing.Size(744, 61);
             this.guna2Panel2.TabIndex = 137;
@@ -243,7 +246,7 @@
             this.guna2Button4.Location = new System.Drawing.Point(187, 6);
             this.guna2Button4.Name = "guna2Button4";
             this.guna2Button4.Size = new System.Drawing.Size(169, 45);
-            this.guna2Button4.TabIndex = 8;
+            this.guna2Button4.TabIndex = 11;
             this.guna2Button4.Text = "Nouvelle Adresse";
             this.guna2Button4.Click += new System.EventHandler(this.guna2Button4_Click);
             // 
@@ -260,7 +263,7 @@
             this.guna2Button3.Location = new System.Drawing.Point(12, 6);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(169, 45);
-            this.guna2Button3.TabIndex = 7;
+            this.guna2Button3.TabIndex = 10;
             this.guna2Button3.Text = "Nouvelle Personne";
             this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
             // 
@@ -277,7 +280,7 @@
             this.guna2Button2.Location = new System.Drawing.Point(587, 6);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button2.TabIndex = 6;
+            this.guna2Button2.TabIndex = 9;
             this.guna2Button2.Text = "Fermer";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
@@ -301,7 +304,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(744, 359);
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(744, 412);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
@@ -324,12 +328,12 @@
         private System.Windows.Forms.ToolTip toolTip1;
         public System.Windows.Forms.Label label1;
         public System.Windows.Forms.GroupBox groupBox1;
-        public System.Windows.Forms.TextBox textBox1;
-        public System.Windows.Forms.TextBox txtphone;
+        public System.Windows.Forms.TextBox txtId;
+        public System.Windows.Forms.TextBox txtnumeroavenue;
         public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.ComboBox combocategorie;
+        public System.Windows.Forms.ComboBox cbxAdresse;
         public System.Windows.Forms.Label label4;
-        public System.Windows.Forms.TextBox txtadresse;
+        public System.Windows.Forms.TextBox txtavenue;
         public System.Windows.Forms.Label label7;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label txttitre;
@@ -338,7 +342,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
-        public System.Windows.Forms.ComboBox comboBox1;
+        public System.Windows.Forms.ComboBox cbxPersonne;
         public System.Windows.Forms.Label label5;
         private Guna.UI2.WinForms.Guna2Button guna2Button4;
         private Guna.UI2.WinForms.Guna2Button guna2Button3;

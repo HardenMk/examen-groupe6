@@ -37,18 +37,18 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txttitre = new System.Windows.Forms.Label();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.txtphone = new System.Windows.Forms.TextBox();
+            this.txtpostnom = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.combocategorie = new System.Windows.Forms.ComboBox();
+            this.cbxSexe = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
             this.txtnom = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.txtadresse = new System.Windows.Forms.TextBox();
+            this.txtprenom = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtcode = new System.Windows.Forms.TextBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.guna2Panel1.SuspendLayout();
@@ -73,13 +73,13 @@
             this.guna2Button2.Location = new System.Drawing.Point(480, 6);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button2.TabIndex = 6;
+            this.guna2Button2.TabIndex = 7;
             this.guna2Button2.Text = "Fermer";
             this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // guna2Panel2
             // 
-            this.guna2Panel2.BackColor = System.Drawing.Color.Silver;
+            this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.guna2Panel2.Controls.Add(this.guna2Button2);
             this.guna2Panel2.Controls.Add(this.guna2Button1);
             this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -100,8 +100,9 @@
             this.guna2Button1.Location = new System.Drawing.Point(306, 6);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(149, 45);
-            this.guna2Button1.TabIndex = 5;
+            this.guna2Button1.TabIndex = 6;
             this.guna2Button1.Text = "Enregistrer";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // pictureBox1
             // 
@@ -134,15 +135,16 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(636, 69);
             this.guna2Panel1.TabIndex = 133;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
-            // txtphone
+            // txtpostnom
             // 
-            this.txtphone.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtphone.Location = new System.Drawing.Point(348, 100);
-            this.txtphone.Multiline = true;
-            this.txtphone.Name = "txtphone";
-            this.txtphone.Size = new System.Drawing.Size(221, 28);
-            this.txtphone.TabIndex = 3;
+            this.txtpostnom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtpostnom.Location = new System.Drawing.Point(348, 100);
+            this.txtpostnom.Multiline = true;
+            this.txtpostnom.Name = "txtpostnom";
+            this.txtpostnom.Size = new System.Drawing.Size(221, 28);
+            this.txtpostnom.TabIndex = 3;
             // 
             // label2
             // 
@@ -154,17 +156,16 @@
             this.label2.TabIndex = 111;
             this.label2.Text = "Postnom";
             // 
-            // combocategorie
+            // cbxSexe
             // 
-            this.combocategorie.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.combocategorie.FormattingEnabled = true;
-            this.combocategorie.Items.AddRange(new object[] {
-            "Abonné",
-            "Non abonné"});
-            this.combocategorie.Location = new System.Drawing.Point(348, 172);
-            this.combocategorie.Name = "combocategorie";
-            this.combocategorie.Size = new System.Drawing.Size(221, 28);
-            this.combocategorie.TabIndex = 2;
+            this.cbxSexe.BackColor = System.Drawing.Color.White;
+            this.cbxSexe.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbxSexe.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbxSexe.FormattingEnabled = true;
+            this.cbxSexe.Location = new System.Drawing.Point(348, 172);
+            this.cbxSexe.Name = "cbxSexe";
+            this.cbxSexe.Size = new System.Drawing.Size(221, 28);
+            this.cbxSexe.TabIndex = 5;
             // 
             // label3
             // 
@@ -183,7 +184,7 @@
             this.txtnom.Multiline = true;
             this.txtnom.Name = "txtnom";
             this.txtnom.Size = new System.Drawing.Size(221, 28);
-            this.txtnom.TabIndex = 1;
+            this.txtnom.TabIndex = 2;
             // 
             // label4
             // 
@@ -195,14 +196,14 @@
             this.label4.TabIndex = 107;
             this.label4.Text = "Sexe";
             // 
-            // txtadresse
+            // txtprenom
             // 
-            this.txtadresse.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtadresse.Location = new System.Drawing.Point(61, 173);
-            this.txtadresse.Multiline = true;
-            this.txtadresse.Name = "txtadresse";
-            this.txtadresse.Size = new System.Drawing.Size(221, 28);
-            this.txtadresse.TabIndex = 4;
+            this.txtprenom.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtprenom.Location = new System.Drawing.Point(61, 173);
+            this.txtprenom.Multiline = true;
+            this.txtprenom.Name = "txtprenom";
+            this.txtprenom.Size = new System.Drawing.Size(221, 28);
+            this.txtprenom.TabIndex = 4;
             // 
             // label7
             // 
@@ -217,21 +218,20 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.txtphone);
+            this.groupBox1.Controls.Add(this.txtcode);
+            this.groupBox1.Controls.Add(this.txtpostnom);
             this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Controls.Add(this.combocategorie);
+            this.groupBox1.Controls.Add(this.cbxSexe);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.txtnom);
             this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.txtadresse);
+            this.groupBox1.Controls.Add(this.txtprenom);
             this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Location = new System.Drawing.Point(12, 81);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(603, 211);
             this.groupBox1.TabIndex = 132;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Identite";
             // 
             // label1
             // 
@@ -243,19 +243,22 @@
             this.label1.TabIndex = 113;
             this.label1.Text = "Code";
             // 
-            // textBox1
+            // txtcode
             // 
-            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(61, 38);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 28);
-            this.textBox1.TabIndex = 112;
+            this.txtcode.BackColor = System.Drawing.Color.White;
+            this.txtcode.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtcode.Location = new System.Drawing.Point(61, 38);
+            this.txtcode.Multiline = true;
+            this.txtcode.Name = "txtcode";
+            this.txtcode.ReadOnly = true;
+            this.txtcode.Size = new System.Drawing.Size(221, 28);
+            this.txtcode.TabIndex = 1;
             // 
             // FRM_AjouterPersonne
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(636, 359);
             this.Controls.Add(this.guna2Panel2);
             this.Controls.Add(this.guna2Panel1);
@@ -264,6 +267,7 @@
             this.Name = "FRM_AjouterPersonne";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRM_AjouterPersonne";
+            this.Load += new System.EventHandler(this.FRM_AjouterPersonne_Load);
             this.guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.guna2Panel1.ResumeLayout(false);
@@ -283,17 +287,17 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.Label txttitre;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        public System.Windows.Forms.TextBox txtphone;
+        public System.Windows.Forms.TextBox txtpostnom;
         public System.Windows.Forms.Label label2;
-        public System.Windows.Forms.ComboBox combocategorie;
+        public System.Windows.Forms.ComboBox cbxSexe;
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.TextBox txtnom;
         public System.Windows.Forms.Label label4;
-        public System.Windows.Forms.TextBox txtadresse;
+        public System.Windows.Forms.TextBox txtprenom;
         public System.Windows.Forms.Label label7;
         public System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ToolTip toolTip1;
         public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.TextBox textBox1;
+        public System.Windows.Forms.TextBox txtcode;
     }
 }

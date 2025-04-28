@@ -16,3 +16,12 @@ C:\Users\Bethel\Downloads\Application cabinet\GestionDeLaConnexion\obj\Debug\Ges
 C:\Users\Bethel\Downloads\Application cabinet\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.csproj.CoreCompileInputs.cache
 C:\Users\Bethel\Downloads\Application cabinet\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.exe
 C:\Users\Bethel\Downloads\Application cabinet\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\bin\Debug\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.csproj.AssemblyReference.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.Properties.Resources.resources
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.csproj.GenerateResource.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.csproj.CoreCompileInputs.cache
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\bin\Debug\GestionDeLaConnexion.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\bin\Debug\GestionDeLaConnexion.dll
+E:\examen-groupe6\Gestion_personne_groupe6\GestionDeLaConnexion\obj\Debug\GestionDeLaConnexion.dll

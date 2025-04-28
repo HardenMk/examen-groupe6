@@ -198,7 +198,7 @@
   <data name="button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABgAAAAZCAYAAAArK+5dAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        wAAADsABataJCQAAArpJREFUSEuNlr9LslEUxw1FDQmVyB9DNBTi4iatBgn+anEWIiKRWhX/AB1E0cUo
+        vAAADrwBlbxySQAAArpJREFUSEuNlr9LslEUxw1FDQmVyB9DNBTi4iatBgn+anEWIiKRWhX/AB1E0cUo
         KkcnN8HNJhEkCkcFraChoSEcUkspPS/ndjXv+9yrfuCAz3PO+X7vc5/rvY8MFjAajSCfz4PT6YT19XXQ
         aDRgtVohGo3C+/s7rRIz16Df78PBwQHIZDJubG9vw9vbG63mIzTAkft8Pq7wbDgcDlIrQmhwdXUlEdvY
         2ACdTie5n8vlaJcUocHOzs5UQKVSQaFQgPF4DD8/P5BOp2FlZWWat1gstEsK1+Dl5WXajBGJRGjmD7/f
@@ -232,6 +232,19 @@
         AElFTkSuQmCC
 </value>
   </data>
+  <data name="couperToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGDSURBVDhPrZFNSwJRGIX9NYGbFoUlFElY1EJQKEYhCJsi
+        LaVsERnRF5iCaSZJO1toCDVGFkgoFpWQWWRR2aIvUxm1BKN1wSnHCFw4TOCzue+9nPNw4eVVnav4Izzb
+        QfxeGZ5TWaxT/rK3irzmC7CsusvC1G4IkbNLboIiDieF4GGUKeTeClDpppF8eeEu2PIfwfrzizSdw3Hk
+        EnKlFpkMzV2wH77AosOFTV8A+vkl9CiHuJeLJNNZjM8tYWB0FkTvMAwmy/8ERTR6CwjlGAi1Ccence6C
+        1NsXzN4PKIxJLLgeIJ2MoXvmFraNBKK3eXZRIveJPvs7FIYniEkXZENOdE+GIZ2Ko10TwLK7tJmKmL0F
+        EEYarYM+NMnt0C1sQzpx/lcSEnZ2gcKY/gs0dlmZuWvmjjmpwA1qxVp2AWFIMAF/OAGBzMjMI7ZrtJCb
+        4Df3o4Zfxy7QrdxDRFKol5khkpR2H4qmIOzUQNBGwrsXYxccnNOQqNbQ0KGGZ+eEPVwdeLxvqqrf4wGh
+        TNAAAAAASUVORK5CYII=
+</value>
+  </data>
   <data name="imprimerToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -245,19 +258,6 @@
         VpWeyStVfCUNf3AZ4zNhfHCFMEDMgye+hYr6FrDLzxQAUuVTpr0ocn74mchg5vsKRt1RcHp2Qv9+kZ78
         UcE17KkWFgHNN/uQzgBkGKLJPBZiecyGchjzrmFwPIF++xJUbDbUQzEacIArLpopSRSP4CUN1Obf1Abz
         uqob5KjiXwWH/GVl5HPt5zZh37GL2H1EiF1VZ7GDI6CNW5r/TSzWbwHYL0mKJ5czAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="couperToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGDSURBVDhPrZFNSwJRGIX9NYGbFoUlFElY1EJQKEYhCJsi
-        LaVsERnRF5iCaSZJO1toCDVGFkgoFpWQWWRR2aIvUxm1BKN1wSnHCFw4TOCzue+9nPNw4eVVnav4Izzb
-        QfxeGZ5TWaxT/rK3irzmC7CsusvC1G4IkbNLboIiDieF4GGUKeTeClDpppF8eeEu2PIfwfrzizSdw3Hk
-        EnKlFpkMzV2wH77AosOFTV8A+vkl9CiHuJeLJNNZjM8tYWB0FkTvMAwmy/8ERTR6CwjlGAi1Ccence6C
-        1NsXzN4PKIxJLLgeIJ2MoXvmFraNBKK3eXZRIveJPvs7FIYniEkXZENOdE+GIZ2Ko10TwLK7tJmKmL0F
-        EEYarYM+NMnt0C1sQzpx/lcSEnZ2gcKY/gs0dlmZuWvmjjmpwA1qxVp2AWFIMAF/OAGBzMjMI7ZrtJCb
-        4Df3o4Zfxy7QrdxDRFKol5khkpR2H4qmIOzUQNBGwrsXYxccnNOQqNbQ0KGGZ+eEPVwdeLxvqqrf4wGh
-        TNAAAAAASUVORK5CYII=
 </value>
   </data>
   <data name="imprimerListeClientToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -392,28 +392,34 @@
   <metadata name="guna2ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>705, 210</value>
   </metadata>
-  <metadata name="description_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="categorie.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 247</value>
   </metadata>
-  <metadata name="id_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="noms_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="nom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="adresse_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="postnom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="telephone_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="prenom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="adressetout.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="nomComplet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Avenue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="numeroavenue.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="adressecomplet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
 </root>

@@ -137,21 +137,6 @@
   <metadata name="toolStrip2.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>409, 173</value>
   </metadata>
-  <data name="imprimerToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVDhPtZL/T1JRGMb5p1itrVZbbRpqZbawnBENV1I0
-        jGlByTSyJTXJwq2oKZQb1KAv6JCYWSxvBrkkZUq4CeQEiRABFeLL072Xa0zRra31bO8v57zP5znnPYf1
-        X+TxhWF6O7VtGYcnwbSWijKPOLzYrPSvLPwLS3huGUMlT7o9wGD9grVUBj+icdid03S9tDmgNxNwTgVQ
-        J+rA8XNtWwM+uuZATMwxmQVRycuJFNyzIRitDlScugKzjSgFRGJJaIwEsrk8AsHIhnSL/Ssck37UNipQ
-        I5DjtuYV7uksRYhr2kebhx2eP6nrycFIEh5fBA/1Nvru8q5+PDaOovK0rABwfwugWzcErfkzHhjsePL6
-        E7q1VrTdNUDcrgGvSYlDZHN5XTNOnL8BVe8AJAoNDtZfLgDu9L1BPJmikzcrk81hlRwodZJwdBXziwnI
-        OrVoaOkiT8C8hKLHBPO7CbywOaE1jeC+bhAd6meQdvZC1KoG/5IS3MZ2HObLUHZSggvkWq3wOvbWiAqA
-        VpWeyStVfCUNf3AZ4zNhfHCFMEDMgye+hYr6FrDLzxQAUuVTpr0ocn74mchg5vsKRt1RcHp2Qv9+kZ78
-        UcE17KkWFgHNN/uQzgBkGKLJPBZiecyGchjzrmFwPIF++xJUbDbUQzEacIArLpopSRSP4CUN1Obf1Abz
-        uqob5KjiXwWH/GVl5HPt5zZh37GL2H1EiF1VZ7GDI6CNW5r/TSzWbwHYL0mKJ5czAAAAAElFTkSuQmCC
-</value>
-  </data>
   <data name="couperToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
@@ -179,25 +164,37 @@
         FF7bIVJVZ0N/soPK421UHGstlFvYd/hWecF/Qqf7CR0A5wwgSQA2AAAAAElFTkSuQmCC
 </value>
   </data>
-  <metadata name="id_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <data name="imprimerToolStripButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIpSURBVDhPtZL/T1JRGMb5p1itrVZbbRpqZbawnBENV1I0
+        jGlByTSyJTXJwq2oKZQb1KAv6JCYWSxvBrkkZUq4CeQEiRABFeLL072Xa0zRra31bO8v57zP5znnPYf1
+        X+TxhWF6O7VtGYcnwbSWijKPOLzYrPSvLPwLS3huGUMlT7o9wGD9grVUBj+icdid03S9tDmgNxNwTgVQ
+        J+rA8XNtWwM+uuZATMwxmQVRycuJFNyzIRitDlScugKzjSgFRGJJaIwEsrk8AsHIhnSL/Ssck37UNipQ
+        I5DjtuYV7uksRYhr2kebhx2eP6nrycFIEh5fBA/1Nvru8q5+PDaOovK0rABwfwugWzcErfkzHhjsePL6
+        E7q1VrTdNUDcrgGvSYlDZHN5XTNOnL8BVe8AJAoNDtZfLgDu9L1BPJmikzcrk81hlRwodZJwdBXziwnI
+        OrVoaOkiT8C8hKLHBPO7CbywOaE1jeC+bhAd6meQdvZC1KoG/5IS3MZ2HObLUHZSggvkWq3wOvbWiAqA
+        VpWeyStVfCUNf3AZ4zNhfHCFMEDMgye+hYr6FrDLzxQAUuVTpr0ocn74mchg5vsKRt1RcHp2Qv9+kZ78
+        UcE17KkWFgHNN/uQzgBkGKLJPBZiecyGchjzrmFwPIF++xJUbDbUQzEacIArLpopSRSP4CUN1Obf1Abz
+        uqob5KjiXwWH/GVl5HPt5zZh37GL2H1EiF1VZ7GDI6CNW5r/TSzWbwHYL0mKJ5czAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="Id.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="noms_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="nom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="adresse_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="postnom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="telephone_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="prenom.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="categorie.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="sex.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <metadata name="email.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="description_client.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="nomComplet.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <metadata name="guna2ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -397,5 +394,14 @@
   </metadata>
   <metadata name="toolTip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>179, 210</value>
+  </metadata>
+  <metadata name="gestion_personneDataSet.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>276, 210</value>
+  </metadata>
+  <metadata name="spselectpersonnesBindingSource.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>463, 210</value>
+  </metadata>
+  <metadata name="sp_select_personnesTableAdapter.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>690, 210</value>
   </metadata>
 </root>

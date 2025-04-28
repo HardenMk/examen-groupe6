@@ -19,5 +19,6 @@ namespace GestionClasseLib
         List<ITelephone> Telephones();
         ITelephone OneTelephone(int id);
         List<ITelephone> TelephonesPersonnes(int id_personne);
+        List<ITelephone> RechercherTelephone(String txtrech);
     }
 }
