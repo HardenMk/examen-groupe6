@@ -1,0 +1,101 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "GestionDeLaConnexion/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GestionDeLaConnexion.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionDeLaConnexion.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GestionDeLaConnexion/1.0.0": {
+      "type": "project",
+      "path": "../GestionDeLaConnexion/GestionDeLaConnexion.csproj",
+      "msbuildProject": "../GestionDeLaConnexion/GestionDeLaConnexion.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "GestionDeLaConnexion >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\LK Augustin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
+      "projectName": "TestApplication",
+      "projectPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj",
+      "packagesPath": "C:\\Users\\LK Augustin\\.nuget\\packages\\",
+      "outputPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\LK Augustin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://www.nuget.org/api/v2/": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "F:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
+              "projectPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.200"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

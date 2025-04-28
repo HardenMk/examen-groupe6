@@ -1,9 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\examen-groupe6\\Gestion_personne_groupe6\\",
+  "WorkspaceRootPath": "F:\\examen-groupe6\\Gestion_personne_groupe6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99EBD899-B06A-4556-8E8A-DA15AB4D76D0}|Gestion_personne_groupe6\\Gestion_personne_groupe6.csproj|d:\\examen-groupe6\\gestion_personne_groupe6\\gestion_personne_groupe6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{45255A69-C55E-6938-17BB-313B5B407B0A}|TestApplication\\TestApplication.csproj|f:\\examen-groupe6\\gestion_personne_groupe6\\testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45255A69-C55E-6938-17BB-313B5B407B0A}|TestApplication\\TestApplication.csproj|solutionrelative:testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99EBD899-B06A-4556-8E8A-DA15AB4D76D0}|Gestion_personne_groupe6\\Gestion_personne_groupe6.csproj|f:\\examen-groupe6\\gestion_personne_groupe6\\gestion_personne_groupe6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{99EBD899-B06A-4556-8E8A-DA15AB4D76D0}|Gestion_personne_groupe6\\Gestion_personne_groupe6.csproj|solutionrelative:gestion_personne_groupe6\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -19,10 +23,23 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\Program.cs",
+              "RelativeDocumentMoniker": "TestApplication\\Program.cs",
+              "ToolTip": "F:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\Program.cs",
+              "RelativeToolTip": "TestApplication\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T10:11:11.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\examen-groupe6\\Gestion_personne_groupe6\\Gestion_personne_groupe6\\Form1.cs",
+              "DocumentMoniker": "F:\\examen-groupe6\\Gestion_personne_groupe6\\Gestion_personne_groupe6\\Form1.cs",
               "RelativeDocumentMoniker": "Gestion_personne_groupe6\\Form1.cs",
-              "ToolTip": "D:\\examen-groupe6\\Gestion_personne_groupe6\\Gestion_personne_groupe6\\Form1.cs [Design]",
+              "ToolTip": "F:\\examen-groupe6\\Gestion_personne_groupe6\\Gestion_personne_groupe6\\Form1.cs [Design]",
               "RelativeToolTip": "Gestion_personne_groupe6\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-09T11:27:31.919Z",
