@@ -185,3 +185,62 @@ begin
 end
 go
 
+--Stored Procedure for report of persons
+CREATE procedure sp_liste_personneDomicile
+as
+begin
+	select p.id,p.nom + ' ' + ISNULL(p.postnom,'') + ' ' + ISNULL(p.prenom,'') as nom,
+	ISNULL(''+a.ville,'')+' '+ISNULL(',C.'+a.commune,'')+' '+ISNULL('Q.'+a.quartier,'')
+	+' '+ISNULL('Av.'+d.avenue,'')+' '+ISNULL('N°'+CONVERT(varchar, d.numero_avenue),'') 
+	as adresse from domicile d
+	right join personne p on d.id_personne=p.id
+	left join adresse a on d.id_adresse=a.id
+	ORDER BY p.id	
+
+end
+go
+
+--utilisateurs
+
+--Insert or Update Utilisateur
+create procedure sp_insert_utilisateur
+	@id int,@nom_user varchar(50),@mot_de_passe varchar(50)
+	
+as
+begin
+	if not exists(select * from utilisateur where id=@id)
+		insert into utilisateur(id,nom_user,mot_de_passe) values 
+		(@id,@nom_user,@mot_de_passe)
+	else
+		update utilisateur set nom_user=@nom_user,mot_de_passe=@mot_de_passe where id=@id
+end
+go
+
+--Delete utilisateur
+create procedure sp_delete_utilisateur
+	@id int
+as
+begin
+	if exists(select * from utilisateur where id=@id)
+		delete from utilisateur where id=@id
+end
+go
+
+--Select all utilisateur
+create procedure sp_select_utilisateurs
+as
+begin 
+	select id,nom_user,mot_de_passe from utilisateur order by id asc
+end
+go
+
+--Select one utilisateur
+create procedure sp_select_utilisateur
+	@id int
+as
+begin
+	select id,nom_user,mot_de_passe from utilisateur 
+	where id=@id
+end
+go
+

@@ -56,3 +56,12 @@ create table domicile
 	references adresse(id)
 )
 go
+
+create table Utilisateur(
+id int not null,
+nom_user varchar(100) not null,
+mot_de_passe varchar(100) not null,
+constraint pk_user primary key(id),
+)
+
+go
