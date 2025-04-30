@@ -70,9 +70,9 @@
             this.panel2.Controls.Add(this.pnla);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel2.Location = new System.Drawing.Point(0, 5);
+            this.panel2.Location = new System.Drawing.Point(0, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1220, 638);
+            this.panel2.Size = new System.Drawing.Size(1220, 640);
             this.panel2.TabIndex = 5;
             // 
             // pnla
@@ -83,7 +83,7 @@
             this.pnla.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnla.Location = new System.Drawing.Point(0, 24);
             this.pnla.Name = "pnla";
-            this.pnla.Size = new System.Drawing.Size(1220, 614);
+            this.pnla.Size = new System.Drawing.Size(1220, 616);
             this.pnla.TabIndex = 1;
             // 
             // pnlafficher
@@ -92,21 +92,21 @@
             this.pnlafficher.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pnlafficher.Location = new System.Drawing.Point(204, 0);
             this.pnlafficher.Name = "pnlafficher";
-            this.pnlafficher.Size = new System.Drawing.Size(1016, 591);
+            this.pnlafficher.Size = new System.Drawing.Size(1016, 593);
             this.pnlafficher.TabIndex = 2;
             // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
             this.panel4.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel4.Location = new System.Drawing.Point(204, 591);
+            this.panel4.Location = new System.Drawing.Point(204, 593);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(1016, 23);
             this.panel4.TabIndex = 1;
             // 
             // panelbutton
             // 
-            this.panelbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.panelbutton.BackColor = System.Drawing.Color.Teal;
             this.panelbutton.Controls.Add(this.btnDomicile);
             this.panelbutton.Controls.Add(this.pnltop);
             this.panelbutton.Controls.Add(this.btnphone);
@@ -116,7 +116,7 @@
             this.panelbutton.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelbutton.Location = new System.Drawing.Point(0, 0);
             this.panelbutton.Name = "panelbutton";
-            this.panelbutton.Size = new System.Drawing.Size(204, 614);
+            this.panelbutton.Size = new System.Drawing.Size(204, 616);
             this.panelbutton.TabIndex = 0;
             // 
             // btnDomicile
@@ -347,7 +347,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1220, 5);
+            this.panel1.Size = new System.Drawing.Size(1220, 3);
             this.panel1.TabIndex = 4;
             // 
             // FRM_Principal

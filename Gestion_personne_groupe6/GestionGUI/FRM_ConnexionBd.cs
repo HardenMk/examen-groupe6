@@ -77,7 +77,7 @@ namespace GestionGUI
                     Properties.Settings.Default.nombasedesdon = cbxbd.Text.Trim();
                     Properties.Settings.Default.motdepassebd = txtMotdePasse.Text;
                     Properties.Settings.Default.Save();
-                    MessageBox.Show("vous etes connecté");
+                    MessageBox.Show("vous etes connecté");                    
                     initialiserConnections();
                     this.Close();
                 }

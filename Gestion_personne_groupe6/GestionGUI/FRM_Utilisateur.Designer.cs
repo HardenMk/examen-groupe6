@@ -337,7 +337,7 @@
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(40)))));
+            this.guna2Panel1.BackColor = System.Drawing.Color.Teal;
             this.guna2Panel1.Controls.Add(this.pictureBox1);
             this.guna2Panel1.Controls.Add(this.txttitre);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Top;

@@ -1,5 +1,6 @@
 ﻿using GestionClasseLib;
 using GestionDeLaConnexion;
+using Microsoft.Reporting.WinForms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -112,10 +113,14 @@ namespace GestionGUI
 
             try
             {
+          
+                frm.reportViewer1.Clear();
+                frm.reportViewer1.LocalReport.ReportEmbeddedResource = "GestionGUI.Rapport." + typeRapport;              
                 frm.reportViewer1.LocalReport.DataSources.Clear();
-                frm.reportViewer1.LocalReport.DataSources.Add(new Microsoft.Reporting.WinForms.ReportDataSource("DataSet1", dt1));
-                frm.reportViewer1.LocalReport.ReportEmbeddedResource = "GestionGUI.Rapport." + typeRapport;
-                frm.reportViewer1.RefreshReport();
+                frm.reportViewer1.LocalReport.DataSources.Add(new ReportDataSource("DataSet1", dt1));
+                frm.reportViewer1.SetDisplayMode(Microsoft.Reporting.WinForms.DisplayMode.Normal);
+                frm.reportViewer1.ZoomMode = Microsoft.Reporting.WinForms.ZoomMode.Percent;                
+                frm.reportViewer1.Refresh();
 
                 frm.ShowDialog();
             }
