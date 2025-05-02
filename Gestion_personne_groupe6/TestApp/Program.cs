@@ -1,6 +1,4 @@
 ﻿using GestionDeLaConnexion;
-using System;
-using System.Data;
 
 namespace TestApp
 {
@@ -34,7 +32,7 @@ namespace TestApp
             }
             finally
             {
-                ImplementerConnexion.fermerconnection();
+               // ImplementerConnexion.fermerconnection();
                
             }
 

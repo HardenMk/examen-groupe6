@@ -139,7 +139,7 @@
             // 
             // pnltop
             // 
-            this.pnltop.BackColor = System.Drawing.Color.Teal;
+            this.pnltop.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.pnltop.Location = new System.Drawing.Point(3, 77);
             this.pnltop.Name = "pnltop";
             this.pnltop.Size = new System.Drawing.Size(10, 38);

@@ -37,3 +37,10 @@ E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\obj\Debug\net8.0\Test
 E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\obj\Debug\net8.0\ref\TestApplication.dll
 E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionDeLaConnexion.dll
 E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionDeLaConnexion.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionClasseLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionUtiliteeLib.dll
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionClasseLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionClasseLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionUtiliteeLib.pdb
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionUtiliteeLib.dll.config
+E:\examen-groupe6\Gestion_personne_groupe6\TestApplication\bin\Debug\net8.0\GestionUtiliteeLib.exe.config

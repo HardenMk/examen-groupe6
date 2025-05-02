@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\GestionClasseLib\GestionClasseLib.csproj" />
     <ProjectReference Include="..\GestionDeLaConnexion\GestionDeLaConnexion.csproj" />
   </ItemGroup>
 

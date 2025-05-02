@@ -3,20 +3,36 @@
   "WorkspaceRootPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|E:\\examen-groupe6\\Gestion_personne_groupe6\\gestiongui\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|solutionrelative:gestiongui\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\iutilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|E:\\examen-groupe6\\Gestion_personne_groupe6\\gestiongui\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|solutionrelative:gestiongui\\frm_principal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\idomicile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\idomicile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestiongui\\usertelephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1B840D1A-F152-4BBE-8ECE-2C37ABA15799}|GestionGUI\\GestionGUI.csproj|solutionrelative:gestiongui\\usertelephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\iadresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\iadresse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{45255A69-C55E-6938-17BB-313B5B407B0A}|TestApplication\\TestApplication.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{45255A69-C55E-6938-17BB-313B5B407B0A}|TestApplication\\TestApplication.csproj|solutionrelative:testapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\ipersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\ipersonne.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\itelephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\itelephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6E6BA29-ED88-4844-BA62-B454161B36A1}|GestionDeLaConnexion\\GestionDeLaConnexion.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestiondelaconnexion\\iconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6E6BA29-ED88-4844-BA62-B454161B36A1}|GestionDeLaConnexion\\GestionDeLaConnexion.csproj|solutionrelative:gestiondelaconnexion\\iconnexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|e:\\examen-groupe6\\gestion_personne_groupe6\\gestionclasselib\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\utilisateur.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|E:\\examen-groupe6\\Gestion_personne_groupe6\\gestionclasselib\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC321830-8894-4645-AAEA-42F54AD4EB69}|GestionClasseLib\\GestionClasseLib.csproj|solutionrelative:gestionclasselib\\telephone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +42,110 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserTelephone.cs [Design]",
-              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\UserTelephone.cs",
-              "RelativeDocumentMoniker": "GestionGUI\\UserTelephone.cs",
-              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\UserTelephone.cs [Design]",
-              "RelativeToolTip": "GestionGUI\\UserTelephone.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T20:44:35.991Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FRM_Principal.cs",
-              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\FRM_Principal.cs",
-              "RelativeDocumentMoniker": "GestionGUI\\FRM_Principal.cs",
-              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\FRM_Principal.cs",
-              "RelativeToolTip": "GestionGUI\\FRM_Principal.cs",
-              "ViewState": "AgIAAG8AAAAAAAAAAAAcwHMAAAAKAAAAAAAAAA==",
+              "Title": "IUtilisateur.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IUtilisateur.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\IUtilisateur.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IUtilisateur.cs",
+              "RelativeToolTip": "GestionClasseLib\\IUtilisateur.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:27:45.683Z",
+              "WhenOpened": "2025-05-02T07:11:20.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FRM_Principal.cs [Design]",
-              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\FRM_Principal.cs",
-              "RelativeDocumentMoniker": "GestionGUI\\FRM_Principal.cs",
-              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionGUI\\FRM_Principal.cs [Design]",
-              "RelativeToolTip": "GestionGUI\\FRM_Principal.cs [Design]",
+              "Title": "IDomicile.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IDomicile.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\IDomicile.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IDomicile.cs",
+              "RelativeToolTip": "GestionClasseLib\\IDomicile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:27:41.919Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-05-02T07:11:16.518Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAdresse.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IAdresse.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\IAdresse.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IAdresse.cs",
+              "RelativeToolTip": "GestionClasseLib\\IAdresse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T07:10:46.929Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\Program.cs",
-              "RelativeDocumentMoniker": "TestApplication\\Program.cs",
-              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\Program.cs",
-              "RelativeToolTip": "TestApplication\\Program.cs",
-              "ViewState": "AgIAAAYAAAAgMDMzM7MSwA4AAABDAAAAAAAAAA==",
+              "Title": "IPersonne.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IPersonne.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\IPersonne.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\IPersonne.cs",
+              "RelativeToolTip": "GestionClasseLib\\IPersonne.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T10:11:11.677Z"
+              "WhenOpened": "2025-05-02T07:09:55.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ITelephone.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\ITelephone.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\ITelephone.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\ITelephone.cs",
+              "RelativeToolTip": "GestionClasseLib\\ITelephone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T07:09:30.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Iconnexion.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\Iconnexion.cs",
+              "RelativeDocumentMoniker": "GestionDeLaConnexion\\Iconnexion.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\Iconnexion.cs",
+              "RelativeToolTip": "GestionDeLaConnexion\\Iconnexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T07:08:31.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Utilisateur.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\Utilisateur.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\Utilisateur.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\Utilisateur.cs",
+              "RelativeToolTip": "GestionClasseLib\\Utilisateur.cs",
+              "ViewState": "AgIAAOwAAAAAwMzMzMwLwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:39:04.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Telephone.cs",
+              "DocumentMoniker": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\Telephone.cs",
+              "RelativeDocumentMoniker": "GestionClasseLib\\Telephone.cs",
+              "ToolTip": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\Telephone.cs",
+              "RelativeToolTip": "GestionClasseLib\\Telephone.cs",
+              "ViewState": "AgIAAOkAAAAAWGZmZuYfwMsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:29:01.344Z"
             }
           ]
         }

@@ -83,7 +83,7 @@ namespace GestionClasseLib
         {
             get
             {
-                return this._initial +" "+ this._numero;
+                return this._initial + " " + this._numero;
             }
         }
 
@@ -201,7 +201,10 @@ namespace GestionClasseLib
 
                 if (rd.Read())
                 {
-                    telephone = GetPhone(rd);
+                    telephone.Id = id;
+                    telephone.Id_proprietaire = Convert.ToInt32(rd["id_proprietaire"].ToString());
+                    telephone.Initial = rd["initial"].ToString();
+                    telephone.Numero = rd["numero"].ToString();
                 }
 
                 rd.Dispose();

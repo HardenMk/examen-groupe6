@@ -140,6 +140,7 @@
             this.txtmtp.PasswordChar = '*';
             this.txtmtp.Size = new System.Drawing.Size(239, 30);
             this.txtmtp.TabIndex = 2;
+            this.txtmtp.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtmtp_KeyDown);
             // 
             // txtnom
             // 

@@ -4,11 +4,50 @@
     "E:\\examen-groupe6\\Gestion_personne_groupe6\\TestApplication\\TestApplication.csproj": {}
   },
   "projects": {
+    "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj",
+        "projectName": "GestionClasseLib",
+        "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
+                "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
+              },
+              "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj": {
+                "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
       "restore": {
         "projectUniqueName": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj",
         "projectName": "GestionDeLaConnexion",
         "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj",
+        "UsingMicrosoftNETSdk": false,
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj": {
+      "restore": {
+        "projectUniqueName": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj",
+        "projectName": "GestionUtiliteeLib",
+        "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionUtiliteeLib\\GestionUtiliteeLib.csproj",
         "UsingMicrosoftNETSdk": false,
         "frameworks": {
           "net472": {
@@ -48,6 +87,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj": {
+                "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj"
+              },
               "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
                 "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
               }

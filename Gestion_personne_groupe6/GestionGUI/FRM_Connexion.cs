@@ -95,5 +95,13 @@ namespace GestionGUI
         {
             Application.Exit();
         }
+
+        private void txtmtp_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                this.guna2Button1_Click(sender, e);
+            }
+        }
     }
 }

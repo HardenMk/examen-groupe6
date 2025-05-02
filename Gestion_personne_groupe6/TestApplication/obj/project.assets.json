@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "GestionClasseLib/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "GestionDeLaConnexion": "1.0.0",
+          "GestionUtiliteeLib": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/GestionClasseLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionClasseLib.dll": {}
+        }
+      },
       "GestionDeLaConnexion/1.0.0": {
         "type": "project",
         "compile": {
@@ -10,18 +23,38 @@
         "runtime": {
           "bin/placeholder/GestionDeLaConnexion.dll": {}
         }
+      },
+      "GestionUtiliteeLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GestionUtiliteeLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GestionUtiliteeLib.dll": {}
+        }
       }
     }
   },
   "libraries": {
+    "GestionClasseLib/1.0.0": {
+      "type": "project",
+      "path": "../GestionClasseLib/GestionClasseLib.csproj",
+      "msbuildProject": "../GestionClasseLib/GestionClasseLib.csproj"
+    },
     "GestionDeLaConnexion/1.0.0": {
       "type": "project",
       "path": "../GestionDeLaConnexion/GestionDeLaConnexion.csproj",
       "msbuildProject": "../GestionDeLaConnexion/GestionDeLaConnexion.csproj"
+    },
+    "GestionUtiliteeLib/1.0.0": {
+      "type": "project",
+      "path": "../GestionUtiliteeLib/GestionUtiliteeLib.csproj",
+      "msbuildProject": "../GestionUtiliteeLib/GestionUtiliteeLib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "GestionClasseLib >= 1.0.0",
       "GestionDeLaConnexion >= 1.0.0"
     ]
   },
@@ -57,6 +90,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj": {
+              "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionClasseLib\\GestionClasseLib.csproj"
+            },
             "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj": {
               "projectPath": "E:\\examen-groupe6\\Gestion_personne_groupe6\\GestionDeLaConnexion\\GestionDeLaConnexion.csproj"
             }
